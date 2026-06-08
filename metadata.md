@@ -1,5 +1,5 @@
 ---
-git-repo: https://github.com/AdobeDocs/discontinued.en
+git-repo: https://github.com/AdobeDocs/discontinued.zh-Hant
 index: false
 source-git-commit: 6d1350e83aff87327231805da6a382acf3ed4472
 workflow-type: tm+mt
