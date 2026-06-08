@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491257/?captions=chi_hant&learn=on&enablevpops)
 
 讓您的AI直接連線到&#x200B;**Adobe CX Enterprise**&#x200B;資料、工作流程和自動化。 從任何相容的AI使用者端或開發工具，以&#x200B;**純語言**&#x200B;查詢行銷活動、啟用對象及管理歷程。
 
