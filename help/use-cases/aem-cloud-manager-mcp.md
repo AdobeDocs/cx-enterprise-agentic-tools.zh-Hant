@@ -2,7 +2,7 @@
 title: 放心地部署至AEM as a Cloud Service
 description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## 步驟2：檢閱管道執行
 
 檢閱最近的管道歷史記錄，以瞭解部署模式並攔截失敗，然後才會封鎖您的下一個版本。
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## 步驟3：觸發管道
 
 啟動直接從您的AI使用者端執行的管道。 伺服器會確認目標環境，並在啟動前要求核准。
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![顯示管道觸發確認的AI使用者端和反映執行中管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![AI使用者端顯示觸發的管道執行狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## 您完成的內容
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## 進一步資訊
 

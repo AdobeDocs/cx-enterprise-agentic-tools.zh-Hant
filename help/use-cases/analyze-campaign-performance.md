@@ -2,7 +2,7 @@
 title: 無需建立報表即可呈現行銷活動深入分析
 description: 使用CX Enterprise MCP Gateway，以簡單的語言詢問Customer Journey Analytics效能問題，並取得解答，而不需瀏覽Report Builder。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## 步驟2：提取行銷活動績效資料
 
 在已識別資料檢視後，依收入和轉換率要求行銷活動績效。 AI會從資料檢視解析量度和維度名稱，不需要技術ID。
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 ![AI使用者端從Omni-Channel - Multi-Industry資料檢視，依收入和轉換率顯示熱門行銷活動](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## 步驟4：深入研究特定的行銷活動型別
 
 要求區段層級劃分以跟進特定發現。 這會顯示哪些客戶型別在促銷活動型別中提升效能。
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## 步驟5：對找到的專案採取動作
 
 根據工作階段中呈現的所有內容，請求排定優先順序的建議。 要求業務價值預估可協助您決定要先採取行動的位置。
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![AI使用者端建議具有預估商業值的優先動作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -261,6 +266,7 @@ Save this analysis as a Workspace project for executive reporting.
 ```
 
 +++
+
 
 ## 進一步資訊
 
