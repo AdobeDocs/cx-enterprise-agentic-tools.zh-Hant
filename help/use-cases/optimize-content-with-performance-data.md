@@ -265,7 +265,7 @@ Promote everything in the current launch to production.
 | 資源 | 您會找到的內容 |
 | --- | --- |
 | [Analytics MCP檔案](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP設定和工具參考 |
-| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM檔案 |
+| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service) | 完整的AEM檔案 |
 | AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP伺服器工具與可用性 |
 | [AI登入中的AEM Content MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server工具與可用性 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |
