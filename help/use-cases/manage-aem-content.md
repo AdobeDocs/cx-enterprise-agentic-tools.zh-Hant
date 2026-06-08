@@ -2,7 +2,7 @@
 title: 保持內容最新狀態，並加快傳送更新的速度
 description: 使用AEM Content MCP Server來尋找、檢閱、更新和發佈AEM內容，而不需在工具之間切換。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -88,6 +88,7 @@ From WKND Dev environment, find all ski related content.
 
 +++
 
+
 ## 步驟2：檢閱特定頁面
 
 找到相關內容後，請要求您的AI使用者端顯示特定頁面。 您可以依名稱或路徑參照頁面。 MCP伺服器會解析參考並傳回內容結構。
@@ -102,6 +103,7 @@ Show me the US English Home Page.
 
 +++
 
+
 ## 步驟3：改善內容
 
 檢視頁面內容後，請要求您的AI使用者端提出改進或套用改進。 AI可以根據頁面目前所顯示的內容提出副本變更，並在寫入任何內容之前要求確認。
@@ -115,6 +117,7 @@ Improve the Hero CTAs.
 ![AI使用者端在套用變更前，提出改良的Hero CTA復本，並有確認提示](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -133,6 +136,7 @@ Publish the changes and share the URL.
 ![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
+
 
 ## 您完成的內容
 
@@ -254,12 +258,13 @@ Promote the May Updates launch to production.
 
 +++
 
+
 ## 進一步資訊
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [AEM Content MCP Server檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP伺服器安裝和使用指南 |
+| [AEM Content MCP Server檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP伺服器安裝和使用指南 |
 | [AI登入中的AEM Content MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | 工具清單和可用性 |
-| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
-| [AEM內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 內容片段製作參考 |
+| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
+| [AEM內容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 內容片段製作參考 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |

@@ -2,7 +2,7 @@
 title: 執行跨頻道行銷活動審查
 description: 在單一AI工作階段中使用CX Enterprise MCP Gateway，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 | --- | --- |
 | CX企業應用程式 | Adobe Journey Optimizer、Customer Journey Analytics、Real-Time CDP |
 | 代理工具 | CX Enterprise MCP閘道 |
-| 對象 | 行銷活動經理，行銷作業 |
+| 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
@@ -99,6 +99,7 @@ What journeys are currently active in AJO?
 
 +++
 
+
 ## 步驟2：檢查對象啟用狀態
 
 檢視歷程時，請確認為這些行銷活動提供支援的受眾是否正確流向其目的地。
@@ -122,6 +123,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++
 
+
 ## 步驟3：從CJA提取績效量度
 
 建立歷程和受眾內容後，使用CJA評估這些行銷活動的轉換方式以及參與度下降的位置。
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 合併轉換率：3.8%。 電子郵件CTR較之前30天期間上升1.2%。 推播轉換平穩。
 
 +++
+
 
 ## 步驟4：綜合行銷活動健康情況摘要
 
@@ -170,6 +173,7 @@ Give me a summary of our campaign health: what is running, which audiences are a
 未偵測到任何嚴重問題。 上述兩個專案值得在下次行銷活動啟動前檢閱。
 
 +++
+
 
 多伺服器方法從中取得成效：在單一交談中，跨越歷程設定、對象狀態和效能資料的AI使用者端原因。
 
@@ -199,6 +203,7 @@ For each flag you identified, what should I do and where should I go to do it?
 您想要從哪個開始？
 
 +++
+
 
 ## 您完成的內容
 
@@ -280,13 +285,14 @@ Which channel has the highest conversion rate across all active campaigns?
 
 +++
 
+
 ## 進一步資訊
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
 | [AJO檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) | 完整的AJO應用程式檔案 |
 | [Analytics MCP檔案](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP設定和工具參考 |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP設定指南 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP設定指南 |
 | AI登入中的[AJO MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP伺服器工具與可用性 |
 | AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP伺服器工具與可用性 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |

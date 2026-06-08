@@ -2,17 +2,16 @@
 title: 在影響客戶之前擷取歷程問題
 description: 使用CX Enterprise MCP Gateway監視作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及您的對象之前顯示營運問題。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # 在影響客戶之前擷取歷程問題
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![檢閱AJO歷程](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -26,6 +25,7 @@ ht-degree: 3%
 | 先決條件 | MCP相容的AI使用者端、AJO存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
+
 
 ## 開始之前
 
@@ -72,6 +72,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕 — 未經您的確認不會採取任何動作。
 
+
 ## 步驟1：探索作用中歷程及其用途
 
 首先，請要求一份作用中歷程及其背後的業務目標清單。 這可讓您在投入任何特定歷程之前先瞭解全貌。
@@ -85,6 +86,8 @@ What customer journeys are currently available and what business objectives do t
 ![AI使用者端清單列出可用的客戶歷程及其業務目標](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## 步驟2：檢閱歷程的步驟和客戶體驗
 
@@ -100,9 +103,11 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++
 
+
 >[!NOTE]
 >
 >以步驟1結果中的歷程名稱取代`[journey name]`。
+
 
 ## 步驟3：檢閱行銷活動、對象和目標
 
@@ -118,6 +123,8 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++
 
+
+
 ## 步驟4：瞭解行銷活動和歷程如何連結
 
 要求您的AI使用者端連線行銷活動和歷程之間的點，並解釋他們如何共同努力達成共用的參與目標。
@@ -131,6 +138,8 @@ How do our campaigns and journeys work together to improve customer engagement?
 ![說明行銷活動與歷程之間關係的AI使用者端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## 步驟5：取得優先建議
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >AJO MCP伺服器會顯示歷程和行銷活動資訊，但無法修改歷程、行銷活動或內容。 若要實作建議，請直接前往AJO應用程式，或連線AEM Content MCP Server以檢視相同工作階段中的內容變更。
 
+
 ## 您完成的內容
 
-您將AI使用者端連線至Adobe Journey Optimizer，並透過五個提示建立您歷程和行銷活動產品組合的完整畫面。 您清查作用中歷程及其業務目標、檢閱特定歷程的逐步客戶體驗、將作用中行銷活動對應至其對象和預期結果、瞭解行銷活動和歷程如何連結，並收到優先建議，說明後續要聚焦於何處。 如此一來，生命週期行銷和行銷活動管理員就能在無需開啟AJO介面的情況下掌握策略重點。
+您將AI使用者端連線至Adobe Journey Optimizer，並透過五個提示建立您歷程和行銷活動產品組合的完整畫面。 您清查作用中歷程及其業務目標、檢閱特定歷程的逐步客戶體驗、將作用中行銷活動對應至其對象和預期結果、瞭解行銷活動和歷程如何共同運作，並收到優先建議，說明後續要聚焦於何處。 如此一來，生命週期行銷和行銷活動管理員就能在無需開啟AJO介面的情況下掌握策略重點。
+
 
 ## 您可以完成更多工作
 
@@ -233,6 +245,8 @@ What channel configurations are set up in our AJO environment?
 ```
 
 +++
+
+
 
 ## 進一步資訊
 

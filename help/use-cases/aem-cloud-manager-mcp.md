@@ -2,7 +2,7 @@
 title: 放心地部署至AEM as a Cloud Service
 description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480353/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 管理Adobe Experience Manager環境通常表示登入Cloud Manager、瀏覽管道和環境，以及切換內容以追蹤部署狀態。 本逐步解說會說明如何使用AEM Cloud Manager MCP伺服器從AI使用者端處理這些作業，讓開發人員和作業團隊可以檢查狀態、檢閱管道並在不離開AI環境的情況下處理部署詳細資訊。
 
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## 步驟2：檢閱管道執行
 
 檢閱最近的管道歷史記錄，以瞭解部署模式並攔截失敗，然後才會封鎖您的下一個版本。
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## 步驟3：觸發管道
 
 啟動直接從您的AI使用者端執行的管道。 伺服器會確認目標環境，並在啟動前要求核准。
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![顯示管道觸發確認的AI使用者端和反映執行中管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![AI使用者端顯示觸發的管道執行狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## 您完成的內容
 
@@ -268,10 +272,11 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 +++
 
+
 ## 進一步資訊
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
 | [AEM Cloud Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | 完整的Cloud Manager應用程式檔案 |
-| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
+| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |

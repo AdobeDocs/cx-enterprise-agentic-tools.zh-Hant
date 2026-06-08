@@ -2,7 +2,7 @@
 title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP Gateway來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 | --- | --- |
 | CX企業應用程式 | Real-Time Customer Data Platform (Real-Time CDP) |
 | 代理工具 | CX Enterprise MCP閘道 |
-| 對象 | 行銷人員、分析人員、操作者 |
+| 客群 | 行銷人員、分析人員、操作者 |
 | 先決條件 | MCP相容的AI使用者端、Real-Time CDP存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## 步驟2：識別您最有價值的區段
 
 檢視對象面貌，詢問哪些區段規模最大，以及哪些區段具備策略價值。
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 ![AI使用者端會識別最大的對象，並解釋哪些因素可讓這些對象發揮其價值](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## 步驟3：檢閱啟用和目的地
 
@@ -110,6 +112,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++
 
+
 ## 步驟4：取得策略建議
 
 CX Enterprise MCP Gateway的RTCDP工具是唯讀的 — 它們會顯示啟用狀態、目的地健康狀況和資料流資料，但不會修改設定。 找出問題後，應用程式就會進行修正。
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![提供優先受眾策略建議的AI使用者端](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -220,11 +224,12 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 +++
 
+
 ## 進一步資訊
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
 | [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp) | MCP伺服器中繼資料與可用性 |
 | [Real-Time CDP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP應用程式檔案 |
 | [AEP目的地檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home) | 完整目的地參考 |
