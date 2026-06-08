@@ -78,7 +78,7 @@ CARDS
 
 在單一AI工作階段中連線至多個MCP伺服器，或使用Adobe API進行自訂的多應用程式協調。
 
-檢視Builders](tools/apis.md)和[MCP伺服器](tools/mcp-servers.md)的[API。
+檢視Builders[&#128279;](tools/apis.md)和[MCP伺服器](tools/mcp-servers.md)的API。
 
 +++
 
