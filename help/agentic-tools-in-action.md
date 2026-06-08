@@ -55,7 +55,7 @@ CARDS
   {title = Manage AEM environments with Cloud Manager}
   {description = Check environment health, review pipeline runs, and manage deployments from your AI client. Uses the AEM Cloud Manager MCP Server.}
   {cta = Start walkthrough}
-  {image = https://video.tv.adobe.com/v/3480340?format=jpeg}
+  {image = https://video.tv.adobe.com/v/3480353?captions=chi_hant&format=jpeg}
 -->
 
 ## 常見問題
