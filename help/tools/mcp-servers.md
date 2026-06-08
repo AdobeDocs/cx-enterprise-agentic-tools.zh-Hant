@@ -2,9 +2,9 @@
 title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2364'
 ht-degree: 4%
 
 ---
@@ -12,21 +12,21 @@ ht-degree: 4%
 
 # MCP伺服器
 
-<!-- last-modified: 2026-05-19 -->
+<!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491333/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP伺服器可讓任何相容的AI使用者端直接受控存取Adobe資料和工作流程。 連線一次，您就可以查詢行銷活動績效、啟用對象、檢閱歷程、管理內容等，這一切都以淺顯的語言完成，無需離開您的AI環境。 由於MCP伺服器位於AI使用者端和Adobe的基本系統之間，因此您可以在組織的存取控制和資料控管保持有效的同時，獲得自然語言的靈活性。
 
-Adobe MCP伺服器會遵循開啟的模型內容通訊協定標準。 任何與MCP相容的AI使用者端都會連線至任何Adobe MCP伺服器。
+Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontextprotocol.io/docs/getting-started/intro)標準。 任何與MCP相容的AI使用者端都會連線至任何Adobe MCP伺服器。
 
-## CX Enterprise MCP閘道
+## CX Enterprise MCP
 
-![CX Enterprise MCP Gateway可跨完整的Adobe CX Enterprise套裝將AI使用者端連線至MCP工具](../assets/mcp-gateway-hero.gif)
+![CX Enterprise MCP將您的AI使用者端連線至整個Adobe CX Enterprise套裝中的工具](../assets/mcp-gateway-hero.gif)
 
-**一個端點。 每個Adobe CX Enterprise MCP伺服器。**
+**一個端點。 多個CX Enterprise應用程式。**
 
-CX企業閘道將您的AI使用者端路由到跨Analytics、行銷活動、內容和資料的工具，而不需要每個應用程式的個別連線。 連線一次，閘道就會根據您的Adobe許可權，僅顯示貴組織有權使用的工具。
+連線一次，您的AI使用者端即可根據貴組織的授權存取CX Enterprise應用程式。 您可用的工具會自動由Adobe許可權決定 — 每個應用程式不需要個別連線。
 
 >[!BEGINTABS]
 
@@ -38,18 +38,17 @@ CX企業閘道將您的AI使用者端路由到跨Analytics、行銷活動、內�
 | --- | --- |
 | Adobe Journey Optimizer | [檢閱歷程、行銷活動和頻道設定](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
 | Customer Journey Analytics | [查詢報告、探索資料檢視、作者工作區](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | [檢查目的地、啟用狀態和資料流健康狀態](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) （已關閉測試版） |
+| Real-Time CDP | [檢查目的地、啟用狀態和資料流健康狀態](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) （已關閉測試版） |
+
+如果此處未列出您的應用程式，請參閱下方的[完整MCP伺服器清單](#adobe-cx-enterprise-mcp-servers)。
 
 >[!TAB 連線]
 
-無論您要在哪裡使用應用程式特定的MCP端點，都可使用CX Enterprise Gateway端點。
+無論您要在哪裡使用應用程式特定的MCP端點，都使用CX Enterprise MCP端點。
 
 ```
 https://cx-enterprise.adobe.io/mcp
 ```
-
->[!NOTE]
->對於AEM，請使用直接AEM端點 — AEM不會透過CX Enterprise MCP Gateway路由。
 
 出現提示時，請使用您的Adobe ID登入，並選取連結至您的Adobe應用程式的IMS組織。 選擇錯誤的組織是遺失工具或驗證錯誤最常見的來源。
 
@@ -59,42 +58,42 @@ https://cx-enterprise.adobe.io/mcp
 
 ## Adobe CX Enterprise MCP伺服器
 
-下列伺服器直接連線，不會透過CX Enterprise MCP Gateway路由。 若要存取AJO、Customer Journey Analytics和Real-Time CDP，請使用上述[CX Enterprise MCP Gateway](#cx-enterprise-mcp-gateway)。
+下列伺服器會直接連線。 若是AJO、Customer Journey Analytics和Real-Time CDP，請使用上述[CX Enterprise MCP](#cx-enterprise-mcp)。
 
 <!--
 CARDS
 
-* #cx-enterprise-mcp-gateway
-  {title = CX Enterprise MCP Gateway}
-  {description = One connection to AJO, CJA, and Real-Time CDP tools. The gateway surfaces only the tools your organization is licensed for.}
+* #cx-enterprise-mcp
+  {title = CX Enterprise MCP}
+  {description = One connection to AJO, CJA, and Real-Time CDP. Your AI client gets access to the applications your organization is licensed for — automatically.}
   {cta = Connect}
   {image = ../assets/mcp-cxenterprise-card.png}
 
-* https://developer.adobe.com/analytics-mcp/docs/aa/
+* https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp
   {title = Adobe Analytics}
   {description = Tools for report suite discovery, dimension and metric analysis, segment authoring, and workspace creation in Adobe Analytics.}
-  {cta = View documentation}
+  {cta = View in AI Registry}
   {target = _blank}
   {image = ../assets/mcp-analytics-card.png}
 
-* https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
+* https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp
   {title = AEM Content}
   {description = Tools for managing pages, content fragments, assets, and launches in Adobe Experience Manager as a Cloud Service using natural language.}
-  {cta = View documentation}
+  {cta = View in AI Registry}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
-* https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
+* https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly
   {title = AEM Content (Read-Only)}
   {description = Tools for discovering and querying pages, content fragments, and launches in AEM as a Cloud Service. No write access.}
-  {cta = View documentation}
+  {cta = View in AI Registry}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
-* https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager
+* https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp
   {title = AEM Cloud Manager}
   {description = Tools for managing Cloud Manager programs, environments, pipelines, and repositories from your IDE using natural language.}
-  {cta = View documentation}
+  {cta = View in AI Registry}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
@@ -128,7 +127,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM內容" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM內容" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM內容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -137,11 +136,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM內容">AEM內容</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM內容">AEM內容</a>
                     </p>
                     <p class="is-size-6">在Adobe Experience Manager as a Cloud Service中使用自然語言管理頁面、內容片段、資產和啟動項的工具。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視檔案</span>
                 </a>
             </div>
@@ -151,7 +150,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM內容（唯讀）" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM內容（唯讀）" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM內容（唯讀）"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -160,11 +159,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM內容（唯讀）">AEM內容（唯讀）</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM內容（唯讀）">AEM內容（唯讀）</a>
                     </p>
                     <p class="is-size-6">在AEM as a Cloud Service中探索及查詢頁面、內容片段和啟動項的工具。 沒有寫入許可權。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視檔案</span>
                 </a>
             </div>
@@ -197,15 +196,137 @@ CARDS
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="CX Enterprise MCP">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="#cx-enterprise-mcp" title="CX Enterprise MCP" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-cxenterprise-card.png" alt="CX Enterprise MCP"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="#cx-enterprise-mcp" target="_blank" rel="referrer" title="CX Enterprise MCP">CX Enterprise MCP</a>
+                    </p>
+                    <p class="is-size-6">一個連線至AJO、CJA和Real-Time CDP。 您的AI使用者端可存取貴組織獲授權的應用程式 — 自動。</p>
+                </div>
+                <a href="#cx-enterprise-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">連線</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Analytics">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp" title="Adobe Analytics" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-analytics-card.png" alt="Adobe Analytics"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
+                    </p>
+                    <p class="is-size-6">Adobe Analytics中的報表套裝探索、維度和量度分析、區段製作和工作區建立的工具。</p>
+                </div>
+                <a href="https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">在AI登入中檢視</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Content">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp" title="AEM內容" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM內容"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp" target="_blank" rel="referrer" title="AEM內容">AEM內容</a>
+                    </p>
+                    <p class="is-size-6">在Adobe Experience Manager as a Cloud Service中使用自然語言管理頁面、內容片段、資產和啟動項的工具。</p>
+                </div>
+                <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">在AI登入中檢視</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Content (Read-Only)">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly" title="AEM內容（唯讀）" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM內容（唯讀）"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly" target="_blank" rel="referrer" title="AEM內容（唯讀）">AEM內容（唯讀）</a>
+                    </p>
+                    <p class="is-size-6">在AEM as a Cloud Service中探索及查詢頁面、內容片段和啟動項的工具。 沒有寫入許可權。</p>
+                </div>
+                <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">在AI登入中檢視</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Cloud Manager">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp" title="AEM Cloud Manager" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM Cloud Manager"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp" target="_blank" rel="referrer" title="AEM Cloud Manager">AEM Cloud Manager</a>
+                    </p>
+                    <p class="is-size-6">使用自然語言從IDE中管理Cloud Manager方案、環境、管道和存放庫的工具。</p>
+                </div>
+                <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">在AI登入中檢視</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 ### MCP伺服器端點
+
+所有端點都列在[Adobe AI登入](https://developer.adobe.com/ai-registry/?type=connector)中。 如果您已經知道您需要什麼 — 在連線之前抓取端點URL並掃描可用的工具，則此表格為快速參考。
 
 | 伺服器 | 端點 | 工具 |
 | --- | --- | --- |
-| [CX Enterprise MCP閘道](#cx-enterprise-mcp-gateway) | `https://cx-enterprise.adobe.io/mcp` | · [Adobe Journey Optimizer工具](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [Customer Journey Analytics工具](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [Real-Time CDP工具](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| [CX Enterprise MCP](#cx-enterprise-mcp) | `https://cx-enterprise.adobe.io/mcp` | · [Adobe Journey Optimizer工具](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [Customer Journey Analytics工具](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [Real-Time CDP工具](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [檢視工具](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [檢視工具](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [檢視工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM內容（唯讀）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [檢視工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [檢視工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [AEM內容（唯讀）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [檢視工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
 
 ## 連線至您的AI使用者端
 
@@ -238,7 +359,7 @@ Claude.ai透過帳戶設定中的自訂聯結器支援遠端MCP伺服器。
 
 ### 使用CLI
 
-執行`claude mcp add`以註冊CX Enterprise MCP閘道。 一個連線可讓您根據組織的授權存取AJO、CJA和Real-Time CDP工具。
+執行`claude mcp add`以註冊CX Enterprise MCP。 一個連線可讓您根據組織的授權存取AJO、CJA和Real-Time CDP。
 
 ```bash
 claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.io/mcp
@@ -265,7 +386,7 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
 
 >[!TAB 游標]
 
-將CX Enterprise MCP Gateway加入您的Cursor `mcp.json`組態檔，然後透過&#x200B;**設定> MCP**&#x200B;連線。
+將CX Enterprise MCP加入您的Cursor `mcp.json`組態檔，然後透過&#x200B;**設定> MCP**&#x200B;連線。
 
 - **全域（所有專案）：** `~/.cursor/mcp.json`
 - **專案層級：** `.cursor/mcp.json`在您的專案根目錄中
@@ -281,7 +402,7 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
 }
 ```
 
-一個閘道專案可讓您根據組織的授權存取AJO、CJA和Real-Time CDP。
+一個連線可讓您根據組織的授權存取AJO、CJA和Real-Time CDP。
 
 新增後，MCP伺服器會出現在游標設定中的&#x200B;**已安裝MCP伺服器**&#x200B;下。 選取任何顯示&#x200B;**需要驗證**&#x200B;且使用您的Adobe ID登入的伺服器旁的&#x200B;**連線**。 選取可存取應用程式的IMS組織。
 
@@ -317,7 +438,7 @@ OpenAI Codex CLI透過TOML組態支援遠端MCP伺服器。
 - **使用者層級（所有專案）：** `~/.codex/config.toml`
 - 專案根目錄中的&#x200B;**專案範圍：** `.codex/config.toml`
 
-新增CX Enterprise MCP Gateway：
+新增CX Enterprise MCP：
 
 ```toml
 [mcp_servers.adobe-cx-enterprise]
@@ -395,17 +516,17 @@ CARDS
 
 * ../use-cases/analyze-campaign-performance.md
   {title = Analyze campaign performance}
-  {description = Use the CX Enterprise MCP Gateway to surface Customer Journey Analytics metrics and insights from any AI client.}
+  {description = Use CX Enterprise MCP to surface Customer Journey Analytics metrics and insights from any AI client.}
   {cta = Start walkthrough}
 
 * ../use-cases/query-audiences.md
   {title = Query audiences}
-  {description = Use the CX Enterprise MCP Gateway to query Real-Time CDP audience and destination data using plain language prompts.}
+  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
   {cta = Start walkthrough}
 
 * ../use-cases/manage-ajo-journeys.md
   {title = Review AJO journeys}
-  {description = Use the CX Enterprise MCP Gateway to access AJO journeys, campaign status, and journey conditions from your AI client.}
+  {description = Use CX Enterprise MCP to access AJO journeys, campaign status, and journey conditions from your AI client.}
   {cta = Start walkthrough}
 
 * ../use-cases/manage-aem-content.md
@@ -415,14 +536,15 @@ CARDS
 
 * ../use-cases/optimize-content-with-performance-data.md
   {title = Optimize content based on performance data}
-  {description = Combine the CX Enterprise MCP Gateway and AEM Content MCP Server to find underperforming content and update it in one session.}
+  {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
   {cta = Start walkthrough}
 
 * ../use-cases/cross-channel-campaign-review.md
   {title = Run a cross-channel campaign review}
-  {description = Use the CX Enterprise MCP Gateway for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
+  {description = Use CX Enterprise MCP for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
   {cta = Start walkthrough}
 -->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
@@ -440,7 +562,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="分析行銷活動績效">分析行銷活動績效</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP Gateway來呈現任何AI使用者端的Customer Journey Analytics量度和深入分析。</p>
+                    <p class="is-size-6">使用CX Enterprise MCP來呈現任何AI使用者端的Customer Journey Analytics量度和深入分析。</p>
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開始逐步解說</span>
@@ -463,7 +585,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../use-cases/query-audiences.md" target="_blank" rel="referrer" title="查詢對象">查詢對象</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP Gateway，以純語言提示查詢Real-Time CDP對象和目的地資料。</p>
+                    <p class="is-size-6">使用CX Enterprise MCP ，以純語言提示查詢Real-Time CDP對象和目的地資料。</p>
                 </div>
                 <a href="../use-cases/query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開始逐步解說</span>
@@ -486,7 +608,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" title="檢閱AJO歷程">檢閱AJO歷程</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP閘道從您的AI使用者端存取AJO歷程、行銷活動狀態和歷程條件。</p>
+                    <p class="is-size-6">使用CX Enterprise MCP從您的AI使用者端存取AJO歷程、行銷活動狀態和歷程條件。</p>
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開始逐步解說</span>
@@ -532,7 +654,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="根據效能資料最佳化內容">根據效能資料最佳化內容</a>
                     </p>
-                    <p class="is-size-6">結合CX Enterprise MCP Gateway與AEM Content MCP Server，找出表現缺佳的內容，並在單一工作階段中更新。</p>
+                    <p class="is-size-6">結合CX Enterprise MCP與AEM Content MCP Server，找出表現缺佳的內容，並在單一工作階段中更新。</p>
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開始逐步解說</span>
@@ -555,7 +677,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="執行跨頻道行銷活動審查">執行跨頻道行銷活動評論</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP Gateway可在單一AI工作階段中統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。</p>
+                    <p class="is-size-6">使用CX Enterprise MCP以在一個AI工作階段中統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。</p>
                 </div>
                 <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開始逐步解說</span>
