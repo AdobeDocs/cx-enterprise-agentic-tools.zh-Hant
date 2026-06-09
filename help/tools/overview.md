@@ -3,7 +3,7 @@ title: 代理工具
 description: 比較Builders的MCP伺服器、代理程式技能和API，並為Adobe CX Enterprise工作流程選擇正確的代理程式工具。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%

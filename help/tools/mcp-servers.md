@@ -3,7 +3,7 @@ title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Adobe Target MCP處於公開測試版。 所有目前可用的工具都是唯讀
 
 在手動設定之前，請檢查[Adobe AI登入](https://developer.adobe.com/ai-registry/?type=connector)，以取得您的AI使用者端和Adobe應用程式的Managed聯結器。 受管理的聯結器會自動處理驗證。 如果您的使用者端和應用程式有可用的聯結器，請改用它，而不是下面的手動步驟。
 
-以下步驟使用CX Enterprise MCP端點作為範例。 相同的程式適用於任何Adobe MCP伺服器 — 交換您要連線的伺服器端點URL。
+以下步驟使用CX Enterprise MCP端點作為範例。 相同的程式適用於任何Adobe MCP伺服器：交換您要連線的伺服器端點URL。
 
 ![連線到Adobe MCP伺服器的AI代理程式](../assets/hero-connect-mcp-servers.gif)
 
@@ -243,7 +243,7 @@ Microsoft Copilot Studio使用MCP上線精靈連線到遠端MCP伺服器，精�
 1. 在Copilot Studio中開啟代理程式。
 2. 移至&#x200B;**工具**&#x200B;頁面。
 3. 選取&#x200B;**新增工具>新增工具>模型內容通訊協定**。
-4. 在MCP上線精靈中，輸入伺服器詳細資訊 — 例如CX Enterprise MCP：
+4. 在MCP上線精靈中，輸入伺服器詳細資訊。 例如，對於CX Enterprise MCP：
    - **伺服器名稱：** `Adobe CX Enterprise`
    - **伺服器URL：** `https://cx-enterprise.adobe.io/mcp`
 5. 將驗證設定為&#x200B;**OAuth 2.0**，並使用您的Adobe IMS授權和權杖URL進行設定。

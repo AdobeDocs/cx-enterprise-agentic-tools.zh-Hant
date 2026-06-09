@@ -3,7 +3,7 @@ title: 適用於建置器的API
 description: 使用Adobe CX Enterprise API建立自訂應用程式和整合。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -107,7 +107,7 @@ API專案設定、驗證和認證管理。
 
 ![連線到Adobe CX Enterprise API的IDE](../assets/hero-connect-apis.gif)
 
-編碼代理程式（如Claude Code、Cursor和OpenAI Codex）非常適合使用Adobe CX Enterprise API建置 — 在您的專案中新增OpenAPI規格，該代理程式可以探索端點、建構請求以及無需手動佈線的API行為原因。 若要開始，您需執行下列兩個操作：來自Adobe Developer Console的已驗證認證，以及新增至專案的API檔案。
+編碼代理程式（例如Claude Code、Cursor和OpenAI Codex）非常適合使用Adobe CX Enterprise API來建置。 將OpenAPI規格新增到您的專案，代理程式就可以探索端點、建構請求，以及有關API行為的原因，而無需手動佈線。 若要開始，您需執行下列兩個操作：來自Adobe Developer Console的已驗證認證，以及新增至專案的API檔案。
 
 ### 在Adobe Developer Console中設定API認證
 
