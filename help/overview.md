@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP伺服器、代理程式技能和API，將AI代理程式和開發工具連線到Adobe CX Enterprise功能。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '585'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491257/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 讓AI成為您的Adobe CX Enterprise同事。 將您的AI使用者端連線到行銷活動、受眾、歷程和內容，並從您已經使用的任何工具中以簡單的語言與他們互動。 沒有新介面、沒有內容切換、不需要編碼即可開始。
 
@@ -141,7 +141,7 @@ CARDS
 
 [探索代理程式技能](tools/agent-skills.md)
 
->[!TAB 建置器的 API]
+>建置器的[!TAB API]
 
 以程式設計方式直接存取支援Adobe產品的相同API。 建立自訂的應用程式和整合，讓您的團隊能夠專注且控管特定CX Enterprise工作流程。
 
@@ -160,11 +160,6 @@ CARDS
 <!--
 CARDS
 
-* use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Review AJO journey status, Real-Time CDP audience activation, and CJA performance data in one AI session. Uses CX Enterprise MCP.}
-  {cta = Start walkthrough}
-
 * use-cases/analyze-campaign-performance.md
   {title = Analyze campaign performance}
   {description = Surface Customer Journey Analytics comparisons and conversion trends through plain-language questions. Uses CX Enterprise MCP.}
@@ -178,35 +173,12 @@ CARDS
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/cross-channel-campaign-review.md" title="執行跨頻道行銷活動審查" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="執行跨頻道行銷活動審查"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="執行跨頻道行銷活動審查">執行跨頻道行銷活動評論</a>
-                    </p>
-                    <p class="is-size-6">在單次AI工作階段中檢閱AJO歷程狀態、Real-Time CDP對象啟用和CJA效能資料。 使用CX Enterprise MCP。</p>
-                </div>
-                <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開始逐步解說</span>
-                </a>
-            </div>
-        </div>
-    </div>
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/analyze-campaign-performance.md" title="分析行銷活動績效" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="分析行銷活動績效"
+                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="分析行銷活動績效"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -229,7 +201,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/manage-aem-content.md" title="使用AI管理AEM內容" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="使用AI管理AEM內容"
+                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="使用AI管理AEM內容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
