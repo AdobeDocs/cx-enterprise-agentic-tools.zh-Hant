@@ -3,10 +3,10 @@ title: 代理程式技能
 description: 由Adobe組織的工作流程與指示，可引導AI代理一致地完成CX Enterprise工作。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 1d568bb9c3d948a0470c0f5d110ebb8fa696a53c
+source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 7%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
@@ -23,164 +23,39 @@ Adobe CX Enterprise的![代理程式技能](../assets/hero-agent-skills.png)
 
 選取下方的功能區域以探索該工作流程的技能。
 
-<!--
-CARDS
+>[!BEGINTABS]
 
-* https://github.com/adobe/skills/tree/main/plugins/aem
-  {title = Adobe Experience Manager}
-  {description = Agent Skills for Experience Manager development, content, design, and project management across AEM as a Cloud Service, Edge Delivery Services, and AEM 6.5 LTS.}
-  {cta = View Agent Skills}
-  {target = _blank}
-  {image = ../assets/agent-skills-aem-card.png}
+>[!TAB Adobe Experience Manager]
 
-* https://github.com/adobe/skills/tree/main/plugins/adobe-analytics
-  {title = Adobe Analytics}
-  {description = Agent Skills for KPI monitoring, funnel analysis, and executive reporting workflows in Adobe Analytics.}
-  {cta = View Agent Skills}
-  {target = _blank}
-  {image = ../assets/agent-skills-analytics-card.png}
+適用於AEM as a Cloud Service、Edge Delivery Services和AEM 6.5 LTS的Experience Manager開發、內容、設計和專案管理的代理程式技能。
 
-* https://github.com/adobe/skills/tree/main/plugins/adobe-cja
-  {title = Customer Journey Analytics}
-  {description = Agent Skills for performance comparison, dimension analysis, and workspace authoring in Customer Journey Analytics.}
-  {cta = View Agent Skills}
-  {target = _blank}
-  {image = ../assets/agent-skills-cja-card.png}
+[檢視代理程式技能](https://github.com/adobe/skills/tree/main/plugins/aem)
 
-* https://github.com/adobe/skills/tree/main/plugins/app-builder
-  {title = Adobe App Builder}
-  {description = Agent Skills for scaffolding, testing, and deploying custom applications with Adobe App Builder.}
-  {cta = View Agent Skills}
-  {target = _blank}
-  {image = ../assets/agent-skills-cxenterprise-card.png}
+>[!TAB Adobe Analytics]
 
-* https://github.com/adobe/skills/tree/main/plugins/creative-cloud
-  {title = Creative Cloud}
-  {description = Agent Skills for batch photo editing, design from templates, video editing, and social media variants with Creative Cloud.}
-  {cta = View Agent Skills}
-  {target = _blank}
-  {image = ../assets/agent-skills-creative-cloud.png}
+Adobe Analytics中KPI監控、funnel分析和執行報告工作流程的代理程式技能。
 
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience Manager">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://github.com/adobe/skills/tree/main/plugins/aem" title="Adobe Experience Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/agent-skills-aem-card.png" alt="Adobe Experience Manager"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://github.com/adobe/skills/tree/main/plugins/aem" target="_blank" rel="referrer" title="Adobe Experience Manager">Adobe Experience Manager</a>
-                    </p>
-                    <p class="is-size-6">適用於AEM as a Cloud Service、Edge Delivery Services和AEM 6.5 LTS的Experience Manager開發、內容、設計和專案管理的代理程式技能。</p>
-                </div>
-                <a href="https://github.com/adobe/skills/tree/main/plugins/aem" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視代理程式技能</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Analytics">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-analytics" title="Adobe Analytics" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/agent-skills-analytics-card.png" alt="Adobe Analytics"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
-                    </p>
-                    <p class="is-size-6">Adobe Analytics中KPI監控、funnel分析和執行報告工作流程的代理程式技能。</p>
-                </div>
-                <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視代理程式技能</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Customer Journey Analytics">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-cja" title="Customer Journey Analytics" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/agent-skills-cja-card.png" alt="Customer Journey Analytics"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-cja" target="_blank" rel="referrer" title="Customer Journey Analytics">Customer Journey Analytics</a>
-                    </p>
-                    <p class="is-size-6">在Customer Journey Analytics中進行效能比較、維度分析以及工作區編寫的代理程式技能。</p>
-                </div>
-                <a href="https://github.com/adobe/skills/tree/main/plugins/adobe-cja" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視代理程式技能</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe App Builder">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://github.com/adobe/skills/tree/main/plugins/app-builder" title="Adobe App Builder" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/agent-skills-cxenterprise-card.png" alt="Adobe App Builder"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://github.com/adobe/skills/tree/main/plugins/app-builder" target="_blank" rel="referrer" title="Adobe App Builder">Adobe App Builder</a>
-                    </p>
-                    <p class="is-size-6">使用Adobe App Builder搭配、測試和部署自訂應用程式的代理程式技能。</p>
-                </div>
-                <a href="https://github.com/adobe/skills/tree/main/plugins/app-builder" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視代理程式技能</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Creative Cloud">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://github.com/adobe/skills/tree/main/plugins/creative-cloud" title="Creative Cloud" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/agent-skills-creative-cloud.png" alt="Creative Cloud"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://github.com/adobe/skills/tree/main/plugins/creative-cloud" target="_blank" rel="referrer" title="Creative Cloud">Creative Cloud</a>
-                    </p>
-                    <p class="is-size-6">使用Creative Cloud批次編輯像片、使用範本設計、編輯視訊和社群媒體變體的代理程式技能。</p>
-                </div>
-                <a href="https://github.com/adobe/skills/tree/main/plugins/creative-cloud" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢視代理程式技能</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+[檢視代理程式技能](https://github.com/adobe/skills/tree/main/plugins/adobe-analytics)
+
+>[!TAB Customer Journey Analytics]
+
+在Customer Journey Analytics中進行效能比較、維度分析以及工作區編寫的代理程式技能。
+
+[檢視代理程式技能](https://github.com/adobe/skills/tree/main/plugins/adobe-cja)
+
+>[!TAB Adobe App Builder]
+
+使用Adobe App Builder搭配、測試和部署自訂應用程式的代理程式技能。
+
+[檢視代理程式技能](https://github.com/adobe/skills/tree/main/plugins/app-builder)
+
+>[!TAB Creative Cloud]
+
+使用Creative Cloud批次編輯像片、使用範本設計、編輯視訊和社群媒體變體的代理程式技能。
+
+[檢視代理程式技能](https://github.com/adobe/skills/tree/main/plugins/creative-cloud)
+
+>[!ENDTABS]
 
 ## 代理程式技能如何運作
 
