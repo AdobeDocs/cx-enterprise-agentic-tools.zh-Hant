@@ -3,7 +3,7 @@ title: 代理程式技能
 description: 由Adobe組織的工作流程與指示，可引導AI代理一致地完成CX Enterprise工作。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Adobe CX Enterprise的![代理程式技能](../assets/hero-agent-skills.png)
 
 代理程式技能是Adobe組織的工作流程，可為AI代理程式提供逐步指示，以便可靠地完成Adobe CX Enterprise工作。 每個「代理程式技能」都會編碼領域專業知識與最佳實務，如此代理程式便能產生一致、驗證的結果，而不需要即興發揮。 如果您想要跨對話進行可重複的引導式行為，尤其是針對每次都需要詳細提示的工作，「代理程式技能」才有意義。 它們補充了MCP伺服器和API：代理程式技能定義代理程式的運作方式；MCP伺服器和API提供基礎存取。
 
-## Adobe CX Enterprise Agent技能
+## Adobe CX Enterprise代理程式技能
 
 選取下方的功能區域以探索該工作流程的技能。
 
@@ -71,7 +71,7 @@ Adobe Analytics中KPI監控、funnel分析和執行報告工作流程的代理�
 - **節點環境**： `npx skills add adobe/skills`
 - **GitHub CLI**： `gh upskill adobe/skills`
 
-其他使用者端會要求您將技能檔案直接下載並新增至您的AI使用者端。 如需使用者端的完整安裝指示，請參閱GitHub[&#128279;](https://github.com/adobe/skills#installation)上的Adobe技能讀我檔案。
+其他使用者端會要求您將技能檔案直接下載並新增至您的AI使用者端。 如需使用者端的完整安裝指示，請參閱GitHub](https://github.com/adobe/skills#installation)上的[Adobe技能讀我檔案。
 
 ### 尋找代理程式技能
 
