@@ -3,9 +3,9 @@ title: 執行中的代理工具
 description: 逐步解說，顯示套用至實際業務工作流程的Adobe CX Enterprise Agentic Tools。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -195,35 +195,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-## 常見問題
-
-+++如何從AI使用者端查詢Adobe資料？
-
-使用MCP伺服器。 將您的AI使用者端連線至相關的Adobe MCP伺服器端點，然後以自然語言提出問題。 伺服器會將您的請求轉譯為Adobe API呼叫，並傳回結構化結果。
-
-請參閱[MCP伺服器](../tools/mcp-servers.md)以開始。
-
-+++
-
-+++如何建立工作流程來連線多個Adobe應用程式？
-
-在單一AI工作階段中連線至多個MCP伺服器，或使用Adobe API進行自訂的多應用程式協調。
-
-檢視Builders[&#128279;](../tools/apis.md)和[MCP伺服器](../tools/mcp-servers.md)的API。
-
-+++
-
-+++如何讓代理程式遵循Adobe最佳實務？
-
-使用代理程式技能。 技能會編碼Adobe網域專業知識，以便代理程式以一致的方式完成任務。
-
-請參閱[代理程式技能](../tools/agent-skills.md)。
-
-+++
-
-+++哪些AI使用者端可搭配Adobe MCP伺服器使用？
-
-任何與MCP相容的使用者端。 Claude程式碼、Claude.ai、Cursor、ChatGPT和Google Gemini都支援MCP。 如需完整的使用者端比較和設定連結，請參閱[MCP伺服器](../tools/mcp-servers.md)。
-
-+++

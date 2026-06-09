@@ -1,12 +1,12 @@
 ---
 title: 保持內容最新狀態，並加快傳送更新的速度
 description: 使用AEM Content MCP Server來尋找、檢閱、更新和發佈AEM內容，而不需在工具之間切換。
-last-substantial-update: 2026-05-22T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 1%
+source-wordcount: '1053'
+ht-degree: 2%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-22 -->
 
-![使用AI管理AEM內容](https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI)
+![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
 Adobe Experience Manager中的內容操作，從尋找頁面和檢閱內容到進行更新及發佈，通常需要直接導覽AEM介面。 此逐步解說會說明如何使用AEM Content MCP Server透過AI使用者端處理這些作業，讓內容團隊可以更快速地移動，而無需在工具之間切換內容。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Adobe Experience Manager as a Cloud Service |
-| 代理工具 | AEM Content MCP Server |
-| 對象 | 內容管理員、行銷團隊 |
-| 先決條件 | MCP相容的AI使用者端、AEM as a Cloud Service存取 |
+| **CX Enterprise應用程式** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **代理工具** | [AEM Content MCP伺服器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **客群** | 內容管理員、行銷團隊 |
+| **先決條件** | MCP相容的AI使用者端、AEM as a Cloud Service存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -73,7 +73,7 @@ https://mcp.adobeaemcloud.com/adobe/mcp/content
 >
 >在首次連線時，您的AI使用者端可能會要求您確認您的組織或AEM環境。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
->有些工具在執行前會提示您核准。 檢閱提議的動作並核准或拒絕 — 未經您的確認不會進行任何變更。
+>有些工具在執行前會提示您核准。 檢閱建議的動作，並核准或拒絕。 未經您的確認，不會進行任何變更。
 
 ## 步驟1：在您的AEM環境中尋找內容
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [AEM Content MCP Server檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP伺服器安裝和使用指南 |
+| [AEM Content MCP Server檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP伺服器安裝和使用指南 |
 | [AI登入中的AEM Content MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | 工具清單和可用性 |
-| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
-| [AEM內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 內容片段製作參考 |
+| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
+| [AEM內容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 內容片段製作參考 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |

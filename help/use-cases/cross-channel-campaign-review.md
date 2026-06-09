@@ -1,12 +1,12 @@
 ---
 title: 執行跨頻道行銷活動審查
-description: 在單一AI工作階段中使用CX Enterprise MCP Gateway，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。
-last-substantial-update: 2026-05-21T00:00:00Z
+description: 在單一AI工作階段中使用CX Enterprise MCP，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 4%
+source-wordcount: '1458'
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 全面掌握行銷活動健康情況需要來自多個系統的資料：來自AJO的活動歷程、來自Real-Time CDP的受眾啟用狀態，以及來自CJA的績效量度。 此逐步解說會說明如何在單一AI工作階段中連線所有三個，讓您能夠在一個交談中（而不是三個單獨的工具）從歷程狀態到受眾健康狀態再到效能趨勢。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Adobe Journey Optimizer、Customer Journey Analytics、Real-Time CDP |
-| 代理工具 | CX Enterprise MCP閘道 |
-| 客群 | 行銷活動經理，行銷作業 |
-| 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
+| **CX Enterprise應用程式** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **客群** | 行銷活動經理，行銷作業 |
+| **先決條件** | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!TAB Claude.ai]
 
-將CX Enterprise MCP Gateway連線為自訂聯結器。 一個連線可讓您存取AJO、CJA和Real-Time CDP工具。
+將CX Enterprise MCP連線為自訂聯結器。 一個連線可讓您存取AJO、CJA和Real-Time CDP工具。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
 2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode連線CX Enterprise MCP （需要Pro、Plus、Business、Enterprise或Education計畫）。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP Gateway：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
->有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕 — 未經您的確認不會採取任何動作。
+>有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
 ## 步驟1：檢閱作用中的歷程與行銷活動
 
@@ -87,14 +87,14 @@ What journeys are currently active in AJO?
 
 | 歷程 | 管道 | 上次修改時間 |
 | --- | --- | --- |
-| 歡迎系列 — 新成員 | 電子郵件、推播 | 2026年5月18日 |
+| 歡迎系列：新成員 | 電子郵件、推播 | 2026年5月18日 |
 | 購買後追蹤 | 電子郵件、簡訊 | 2026年5月14日 |
 | 再次參與忠誠度 | 電子郵件 | 2026年5月20日 |
-| 捨棄的購物車 — 24小時 | 電子郵件、簡訊 | 2026年5月10日 |
+| 捨棄的購物車：24小時 | 電子郵件、簡訊 | 2026年5月10日 |
 | Spring Promotion | 電子郵件、推播 | 2026年5月19日 |
-| 回合 — 90天非使用中 | 電子郵件 | 2026年4月28日 |
+| 回合：90天非使用中 | 電子郵件 | 2026年4月28日 |
 | 生日獎勵 | 電子郵件 | 2026年4月15日 |
-| 重新參與 — 推播選擇退出 | 簡訊 | 2026年5月12日 |
+| 重新參與：推播選擇退出 | 簡訊 | 2026年5月12日 |
 
 過去7天內修改了3個歷程。 您想要瞭解其中任何專案的詳細資訊嗎？
 
@@ -111,7 +111,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++檢視範例回應
 
-**高價值忠誠度區段** — 各目的地的啟用狀態：
+**高價值忠誠度區段**：各個目的地的啟用狀態：
 
 | 目標 | 狀態 | 上一次成功的執行 | 對象規模 |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 +++檢視範例回應
 
-**忠誠度重新參與行銷活動** — 2026年4月21日至5月21日：
+**忠誠度重新參與行銷活動**： 2026年4月21日至5月21日：
 
 | 頻道 | 傳送 | CTR | 轉換 | 同意 比率 |
 | --- | --- | --- | --- | --- |
@@ -169,7 +169,7 @@ Give me a summary of our campaign health: what is running, which audiences are a
 **要注意的旗標：**
 
 - 贏回歷程（90天非使用中）上次修改於23天前，最近未經過稽核。
-- 推播轉換率連續3個週期保持平穩 — 值得檢閱訊息或時機。
+- 推播轉換率連續3個期間保持不變，值得檢閱訊息或時機。
 
 未偵測到任何嚴重問題。 上述兩個專案值得在下次行銷活動啟動前檢閱。
 
@@ -293,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [AJO檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) | 完整的AJO應用程式檔案 |
 | [Analytics MCP檔案](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP設定和工具參考 |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP設定指南 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP設定指南 |
 | AI登入中的[AJO MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP伺服器工具與可用性 |
 | AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP伺服器工具與可用性 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |

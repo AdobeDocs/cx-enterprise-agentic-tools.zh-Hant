@@ -1,11 +1,11 @@
 ---
 title: 在影響客戶之前擷取歷程問題
-description: 使用CX Enterprise MCP Gateway監視作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及您的對象之前顯示營運問題。
+description: 使用CX Enterprise MCP監控作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及到您的對象之前顯示營運問題。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -14,16 +14,16 @@ ht-degree: 3%
 # 在影響客戶之前擷取歷程問題
 <!-- last-modified: 2026-06-08 -->
 
-![檢閱AJO歷程](https://placehold.co/1600x900?text=Review+AJO+Journeys)
+![AI使用者端摘要行銷活動和歷程策略與執行摘要](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-清楚瞭解哪些歷程處於作用中狀態、哪些條件驅動這些歷程，以及行銷活動的設定方式通常意味著開啟Adobe Journey Optimizer並導覽其介面。 本逐步解說會說明如何透過AI使用者端取得同樣的可見度，使用CX Enterprise MCP Gateway透過簡單語言問題查詢AJO歷程和促銷活動資料。
+清楚瞭解哪些歷程處於作用中狀態、哪些條件驅動這些歷程，以及行銷活動的設定方式通常意味著開啟Adobe Journey Optimizer並導覽其介面。 本逐步解說會說明如何透過AI使用者端取得相同的可見度，使用CX Enterprise MCP透過簡單語言問題查詢AJO歷程和促銷活動資料。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Adobe Journey Optimizer (AJO) |
-| 代理工具 | CX Enterprise MCP閘道 |
-| 客群 | 行銷活動管理員、行銷人員 |
-| 先決條件 | MCP相容的AI使用者端、AJO存取 |
+| **CX Enterprise應用程式** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **客群** | 行銷活動管理員、行銷人員 |
+| **先決條件** | MCP相容的AI使用者端、AJO存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 >[!TAB Claude.ai]
 
-以自訂聯結器的形式連線CX Enterprise MCP Gateway，以存取Adobe Journey Optimizer工具。
+將CX Enterprise MCP連線為自訂聯結器，以存取Adobe Journey Optimizer工具。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
 2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode連線CX Enterprise MCP （需要Pro、Plus、Business、Enterprise或Education計畫）。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP Gateway：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
->有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕 — 未經您的確認不會採取任何動作。
+>有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
 
 ## 步驟1：探索作用中歷程及其用途
@@ -169,7 +169,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 ## 您可以完成更多工作
 
-CX Enterprise MCP Gateway可以呈現各種AJO歷程與行銷活動的詳細資訊。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
+CX Enterprise MCP可呈現各種AJO歷程與行銷活動的詳細資訊。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
 
 +++在進行變更之前，請先瞭解哪些專案已上線
 

@@ -1,12 +1,12 @@
 ---
 title: 瞭解您的對象及其啟用位置
-description: 使用CX Enterprise MCP Gateway來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
-last-substantial-update: 2026-06-04T00:00:00Z
+description: 使用CX Enterprise MCP來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 3%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![以自然語言查詢對象](https://placehold.co/1600x900?text=Query+Audiences)
+![AI使用者端提供具有啟動建議之優先順序的對象策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 瞭解哪些對象已啟用、流向何處以及目的地是否健康通常表示開啟Real-Time CDP並導覽多個畫面。 本逐步解說會說明如何透過AI使用者端取得相同的答案，使用RTCDP MCP伺服器透過簡單語言問題呈現目的地設定、啟用狀態和資料流健康狀況。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Real-Time Customer Data Platform (Real-Time CDP) |
-| 代理工具 | CX Enterprise MCP閘道 |
-| 客群 | 行銷人員、分析人員、操作者 |
-| 先決條件 | MCP相容的AI使用者端、Real-Time CDP存取 |
+| **CX Enterprise應用程式** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **客群** | 行銷人員、分析人員、操作者 |
+| **先決條件** | MCP相容的AI使用者端、Real-Time CDP存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 >[!TAB Claude.ai]
 
-以自訂聯結器的形式連線CX Enterprise MCP Gateway，以存取Real-Time CDP工具。
+將CX Enterprise MCP連線為自訂聯結器，以存取Real-Time CDP工具。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
 2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode連線CX Enterprise MCP （需要Pro、Plus、Business、Enterprise或Education計畫）。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP Gateway：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -116,7 +116,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## 步驟4：取得策略建議
 
-CX Enterprise MCP Gateway的RTCDP工具是唯讀的 — 它們會顯示啟用狀態、目的地健康狀況和資料流資料，但不會修改設定。 找出問題後，應用程式就會進行修正。
+CX Enterprise MCP的RTCDP工具是唯讀的 — 它們會顯示啟用狀態、目的地健康狀況和資料流資料，但不會修改設定。 找出問題後，應用程式就會進行修正。
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -131,7 +131,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->CX Enterprise MCP Gateway的RTCDP工具會顯示目的地和啟用資料，但無法修改目的地組態、區段定義或資料流設定。 Real-Time CDP應用程式中會進行補救步驟。
+>CX Enterprise MCP的RTCDP工具會顯示目的地和啟用資料，但無法修改目的地組態、區段定義或資料流設定。 Real-Time CDP應用程式中會進行補救步驟。
 
 ## 您完成的內容
 
@@ -139,7 +139,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## 您可以完成更多工作
 
-CX Enterprise MCP Gateway的Real-Time CDP工具支援廣泛的對象和啟動查詢。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
+CX Enterprise MCP的Real-Time CDP工具支援廣泛的對象和啟動查詢。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
 
 +++清楚知道行銷活動傳送之前流向何處
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
 | [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp) | MCP伺服器中繼資料與可用性 |
 | [Real-Time CDP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP應用程式檔案 |
 | [AEP目的地檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home) | 完整目的地參考 |
