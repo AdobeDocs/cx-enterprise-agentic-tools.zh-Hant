@@ -3,9 +3,9 @@ title: 適用於建置器的API
 description: 使用Adobe CX Enterprise API建立自訂應用程式和整合。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 11%
 
 ---
@@ -103,11 +103,11 @@ API專案設定、驗證和認證管理。
 
 >[!ENDTABS]
 
-## 開始使用建置器適用的API
+## 使用API建置
 
 ![連線到Adobe CX Enterprise API的IDE](../assets/hero-connect-apis.gif)
 
-Adobe CX Enterprise API在建置之前需要兩個條件：來自Adobe Developer Console的已驗證憑證，以及新增至您專案的API檔案，讓您的程式碼代理程式可以可靠地與Adobe API搭配使用。
+編碼代理程式（如Claude Code、Cursor和OpenAI Codex）非常適合使用Adobe CX Enterprise API建置 — 在您的專案中新增OpenAPI規格，該代理程式可以探索端點、建構請求以及無需手動佈線的API行為原因。 若要開始，您需執行下列兩個操作：來自Adobe Developer Console的已驗證認證，以及新增至專案的API檔案。
 
 ### 在Adobe Developer Console中設定API認證
 
@@ -192,15 +192,3 @@ project/
 **保持規格為最新**
 
 當Adobe發佈新的API版本時：將新的快照集下載到`/specs`、更新`README.md`中的日期，並重新產生索引和`AGENTS.md`。
-
-## 適用於建置器與MCP伺服器的API
-
-當您需要完全控制系統整合或正在建置自訂應用程式時，請使用API。 當您希望AI代理程式直接搭配Adobe工作流程使用時，請使用MCP伺服器。
-
-| | API | MCP伺服器 |
-| --- | --- | --- |
-| 直接系統整合 | 是 | 有時 |
-| 代理程式友善協調 | 有限 | 是 |
-| 原始資料存取 | 是 | 通常是抽象的 |
-| 自訂應用程式開發 | 主要使用案例 | 次要 |
-| AI輔助工作流程 | 支援 | 主要使用案例 |
