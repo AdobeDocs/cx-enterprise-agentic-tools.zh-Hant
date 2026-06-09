@@ -3,7 +3,7 @@ title: 放心地部署至AEM as a Cloud Service
 description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -21,10 +21,10 @@ ht-degree: 2%
 
 | 案例詳細資料 | |
 | --- | --- |
-| **CX Enterprise應用程式** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| **代理工具** | [AEM Cloud Manager MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
-| **客群** | 開發人員、DevOps、營運團隊 |
-| **先決條件** | MCP相容的AI使用者端、AEM Cloud Manager存取 |
+| CX企業應用程式 | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| 代理工具 | [AEM Cloud Manager MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| 對象 | 開發人員、DevOps、營運團隊 |
+| 先決條件 | MCP相容的AI使用者端、AEM Cloud Manager存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 接著有&#x200B;**更多提示嘗試**&#x200B;區段，以供您在同一工作階段中進行其他探索。
 
