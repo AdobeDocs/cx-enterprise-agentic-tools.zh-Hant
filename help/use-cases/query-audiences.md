@@ -1,8 +1,9 @@
 ---
 title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP Gateway來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
+last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%

@@ -1,8 +1,9 @@
 ---
 title: 資源
 description: 所有Adobe CX Enterprise Agentic Tools檔案、註冊處、API和開發人員指南的單一入口點。
+last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 16%
