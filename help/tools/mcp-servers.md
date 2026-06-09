@@ -3,9 +3,9 @@ title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 25d2a09ed7ca8357fd4d9eff93233732fe81a2d5
+source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2078'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,7 @@ Adobe Experience Manager有多個MCP伺服器可供不同工作流程使用。
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理計畫、環境、管道和存放庫 |
 | [AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理頁面、內容片段、資產和啟動 |
 | [AEM內容（唯讀）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查詢頁面、內容片段以及沒有寫入許可權的啟動 |
-| [AEM檔案製作]（TODO：驗證） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在檔案製作中管理檔案、版本記錄和媒體參考 |
+| AEM檔案製作 | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在檔案製作中管理檔案、版本記錄和媒體參考 |
 | [AEM體驗控管](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根據品牌指引和法規遵循評估內容和影像 |
 | [AEM Experience Production](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驅動的內容簡介大規模轉換和建立AEM頁面 |
 
@@ -74,7 +74,7 @@ Adobe Experience Manager有多個MCP伺服器可供不同工作流程使用。
 
 | MCP伺服器 | 端點 | 您可以做什麼 |
 | --- | --- | --- |
-| [Adobe Marketing Agent]（TODO：驗證） | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP應用程式協調受眾分析、AEP診斷和AJO B2B歷程建置 |
+| Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP應用程式協調受眾分析、AEP診斷和AJO B2B歷程建置 |
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Adobe Target MCP處於公開測試版。 所有目前可用的工具都是唯讀
 
 | MCP伺服器 | 端點 | 您可以做什麼 |
 | --- | --- | --- |
-| [Adobe Workfront]（TODO：驗證） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、專案、規劃記錄、見解和內容核准 |
+| Adobe Workfront | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、專案、規劃記錄、見解和內容核准 |
 
 >[!NOTE]
 >

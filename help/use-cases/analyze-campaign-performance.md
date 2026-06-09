@@ -3,9 +3,9 @@ title: 無需建立報表即可呈現行銷活動深入分析
 description: 使用CX Enterprise MCP以簡單的語言詢問Customer Journey Analytics效能問題，並且不需要瀏覽Report Builder即可獲得解答。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 | --- | --- |
 | CX企業應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| 對象 | 分析人員、行銷活動經理 |
+| 客群 | 分析人員、行銷活動經理 |
 | 先決條件 | MCP相容的AI使用者端、CJA存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
@@ -273,7 +273,5 @@ Save this analysis as a Workspace project for executive reporting.
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [CJA MCP伺服器檔案](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完整的工具參考與設定指南 |
-| [CJA MCP使用指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | 詳細使用指南 |
-| AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP伺服器工具與可用性 |
-| [Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing) | 完整的CJA應用程式檔案 |
+| AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP伺服器工具與可用性 |
+| [Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing){target="_blank"} | 完整的CJA應用程式檔案 |

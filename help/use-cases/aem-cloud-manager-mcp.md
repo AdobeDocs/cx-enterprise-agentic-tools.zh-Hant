@@ -3,9 +3,9 @@ title: 放心地部署至AEM as a Cloud Service
 description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '954'
 ht-degree: 2%
 
 ---
@@ -278,6 +278,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [AEM Cloud Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | 完整的Cloud Manager應用程式檔案 |
-| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service) | 完整的AEM應用程式檔案 |
-| [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |
+| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service){target="_blank"} | 完整的AEM應用程式檔案 |
