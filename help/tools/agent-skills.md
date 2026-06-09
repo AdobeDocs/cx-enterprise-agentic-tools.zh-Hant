@@ -3,9 +3,9 @@ title: 代理程式技能
 description: 由Adobe組織的工作流程與指示，可引導AI代理一致地完成CX Enterprise工作。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ Adobe CX Enterprise的![代理程式技能](../assets/hero-agent-skills.png)
 ## Adobe CX Enterprise Agent技能
 
 所有代理程式技能都會保留在[Adobe Skills GitHub存放庫](https://github.com/adobe/skills)。 選取下方的功能區域以探索該工作流程的技能。
-
-### Adobe應用程式
 
 <!--
 CARDS
@@ -207,7 +205,7 @@ CARDS
 - **節點環境**： `npx skills add adobe/skills`
 - **GitHub CLI**： `gh upskill adobe/skills`
 
-其他使用者端會要求您將技能檔案直接下載並新增至您的AI使用者端。 如需使用者端的完整安裝指示，請參閱GitHub[&#128279;](https://github.com/adobe/skills#installation)上的Adobe技能讀我檔案。
+其他使用者端會要求您將技能檔案直接下載並新增至您的AI使用者端。 如需使用者端的完整安裝指示，請參閱GitHub](https://github.com/adobe/skills#installation)上的[Adobe技能讀我檔案。
 
 ### 尋找代理程式技能
 

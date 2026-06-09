@@ -3,7 +3,7 @@ title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
+source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-09 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491333/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP伺服器可讓任何相容的AI使用者端直接受控存取Adobe資料和工作流程。 連線一次，您就可以查詢行銷活動績效、啟用對象、檢閱歷程、管理內容等，這一切都以淺顯的語言完成，無需離開您的AI環境。 由於MCP伺服器位於AI使用者端和Adobe的基本系統之間，因此您可以在組織的存取控制和資料控管保持有效的同時，獲得自然語言的靈活性。
 
@@ -58,13 +58,13 @@ Adobe Experience Manager有多個MCP伺服器可供不同工作流程使用。
 
 | MCP伺服器 | 端點 | 您可以做什麼 |
 | --- | --- | --- |
-| [AEM （程式碼模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 透過自然語言查詢、讀取、寫入和刪除，直接REST API存取AEM |
+| [AEM （程式碼模式）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 透過自然語言查詢、讀取、寫入和刪除，直接REST API存取AEM |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理計畫、環境、管道和存放庫 |
-| [AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理頁面、內容片段、資產和啟動 |
-| [AEM內容（唯讀）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查詢頁面、內容片段以及沒有寫入許可權的啟動 |
+| [AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理頁面、內容片段、資產和啟動 |
+| [AEM內容（唯讀）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查詢頁面、內容片段以及沒有寫入許可權的啟動 |
 | AEM檔案製作 | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在檔案製作中管理檔案、版本記錄和媒體參考 |
 | [AEM體驗控管](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根據品牌指引和法規遵循評估內容和影像 |
-| [AEM Experience Production](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驅動的內容簡介大規模轉換和建立AEM頁面 |
+| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驅動的內容簡介大規模轉換和建立AEM頁面 |
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Adobe Experience Manager有多個MCP伺服器可供不同工作流程使用。
 
 | MCP伺服器 | 端點 | 您可以做什麼 |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理方案、行銷活動、銷售機會、智慧清單、電子郵件和表單 |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理方案、行銷活動、銷售機會、智慧清單、電子郵件和表單 |
 
 >[!NOTE]
 >
->Marketo Engage MCP使用Marketo原生服務憑證，而不是Adobe IMS。 如需驗證設定，請參閱[Marketo Engage MCP伺服器檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server)。 存取權取決於您的Marketo Engage訂閱和API使用者的許可權。
+>Marketo Engage MCP使用Marketo原生服務憑證，而不是Adobe IMS。 如需驗證設定，請參閱[Marketo Engage MCP伺服器檔案](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server)。 存取權取決於您的Marketo Engage訂閱和API使用者的許可權。
 
 >[!TAB Target]
 
@@ -96,7 +96,7 @@ Adobe Target MCP處於公開測試版。 所有目前可用的工具都是唯讀
 
 | MCP伺服器 | 端點 | 您可以做什麼 |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 檢閱活動、選件、對象、mbox和效能報表 |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 檢閱活動、選件、對象、mbox和效能報表 |
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Adobe Target MCP處於公開測試版。 所有目前可用的工具都是唯讀
 
 >[!TAB Claude.ai]
 
-### ![建議](../assets/icons/star.svg)使用Managed聯結器
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="建議">使用Managed聯結器
 
 移至[Adobe AI登入](https://developer.adobe.com/ai-registry/?type=connector)並搜尋您的Adobe應用程式。 如果列出了Claude聯結器（例如[Adobe Experience Manager聯結器](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)），請依照其設定指示操作，而非依照下列步驟操作。
 
@@ -198,7 +198,7 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
 
 >[!TAB ChatGPT]
 
-### ![建議](../assets/badge-recommended.svg)使用Managed聯結器
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="建議">使用Managed聯結器
 
 移至[Adobe AI登入](https://developer.adobe.com/ai-registry/?type=connector)並搜尋您的Adobe應用程式。 如果列出ChatGPT聯結器，請按照其設定指示操作，而不是下面的步驟。
 
