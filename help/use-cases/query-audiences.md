@@ -3,7 +3,7 @@ title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 3%
@@ -21,10 +21,10 @@ ht-degree: 3%
 
 | 案例詳細資料 | |
 | --- | --- |
-| **CX Enterprise應用程式** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
-| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **客群** | 行銷人員、分析人員、操作者 |
-| **先決條件** | MCP相容的AI使用者端、Real-Time CDP存取 |
+| CX企業應用程式 | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| 對象 | 行銷人員、分析人員、操作者 |
+| 先決條件 | MCP相容的AI使用者端、Real-Time CDP存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
 | [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp) | MCP伺服器中繼資料與可用性 |
 | [Real-Time CDP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP應用程式檔案 |
 | [AEP目的地檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home) | 完整目的地參考 |
