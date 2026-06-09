@@ -68,7 +68,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}

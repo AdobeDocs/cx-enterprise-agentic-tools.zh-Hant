@@ -257,7 +257,7 @@ Publish all confirmed changes and share the updated URLs.
 | 資源 | 您會找到的內容 |
 | --- | --- |
 | [CJA MCP伺服器檔案](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCP設定和工具參考 |
-| [AEM Content MCP Server檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM內容MCP設定和使用指南 |
+| [AEM Content MCP Server檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM內容MCP設定和使用指南 |
 | AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP伺服器工具與可用性 |
 | [AI登入中的AEM Content MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server工具與可用性 |
 | [MCP伺服器](../tools/mcp-servers.md) | 將AI使用者端連線至Adobe MCP伺服器 |

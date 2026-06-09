@@ -276,4 +276,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [CJA MCP伺服器檔案](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完整的工具參考與設定指南 |
 | [CJA MCP使用指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | 詳細使用指南 |
 | AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP伺服器工具與可用性 |
-| [Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | 完整的CJA應用程式檔案 |
+| [Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing) | 完整的CJA應用程式檔案 |
