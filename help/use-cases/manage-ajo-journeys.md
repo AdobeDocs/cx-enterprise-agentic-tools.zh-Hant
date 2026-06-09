@@ -1,8 +1,9 @@
 ---
 title: 在影響客戶之前擷取歷程問題
 description: 使用CX Enterprise MCP Gateway監視作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及您的對象之前顯示營運問題。
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -21,7 +22,7 @@ ht-degree: 3%
 | --- | --- |
 | CX企業應用程式 | Adobe Journey Optimizer (AJO) |
 | 代理工具 | CX Enterprise MCP閘道 |
-| 對象 | 行銷活動管理員、行銷人員 |
+| 客群 | 行銷活動管理員、行銷人員 |
 | 先決條件 | MCP相容的AI使用者端、AJO存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。

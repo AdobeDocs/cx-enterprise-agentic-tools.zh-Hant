@@ -1,8 +1,9 @@
 ---
 title: 代理工具
 description: 比較Builders的MCP伺服器、代理程式技能和API，並為Adobe CX Enterprise工作流程選擇正確的代理程式工具。
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -155,7 +156,7 @@ CARDS
 
 [探索代理程式技能](agent-skills.md)
 
->[!TAB 建置器的 API]
+>建置器的[!TAB API]
 
 API是建置區塊。 它們可讓開發人員透過支援Adobe產品的API，以程式設計方式直接存取Adobe資料和作業。 運用這些工具，建置重點明確的自訂體驗，透過組織需求的護欄，簡化特定業務工作流程。
 
