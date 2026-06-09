@@ -2,9 +2,9 @@
 title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP伺服器、代理程式技能和API，將AI代理程式和開發工具連線到Adobe CX Enterprise功能。
 index: false
-source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
+source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491257/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 讓AI成為您的Adobe CX Enterprise同事。 將您的AI使用者端連線到行銷活動、受眾、歷程和內容，並從您已經使用的任何工具中以簡單的語言與他們互動。 沒有新介面、沒有內容切換、不需要編碼即可開始。
 
@@ -116,80 +116,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="MCP Servers">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="tools/mcp-servers.md" title="MCP伺服器" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/mcp-servers-card.png" alt="MCP伺服器"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/mcp-servers.md" target="_blank" rel="referrer" title="MCP伺服器">MCP伺服器</a>
-                    </p>
-                    <p class="is-size-6">將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。 在不離開AI工具的情況下查詢資料、分析行銷活動以及存取對象。</p>
-                </div>
-                <a href="tools/mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索MCP伺服器</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agent Skills">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="tools/agent-skills.md" title="代理程式技能" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/agent-skills-card.png" alt="代理程式技能"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/agent-skills.md" target="_blank" rel="referrer" title="代理程式技能">代理程式技能</a>
-                    </p>
-                    <p class="is-size-6">由Adobe組織的工作流程，可引導代理程式完成CX Enterprise工作。 網域專業知識編碼一次，並一致套用。</p>
-                </div>
-                <a href="tools/agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理程式技能</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="APIs for Builders">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="tools/apis.md" title="適用於建置器的API" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/apis-card.png" alt="適用於建置器的API"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        建置器的<a href="tools/apis.md" target="_blank" rel="referrer" title="適用於建置器的API">API</a>
-                    </p>
-                    <p class="is-size-6">使用Claude Code和Cursor等代理程式編碼工具建置自訂Adobe CX Enterprise應用程式。</p>
-                </div>
-                <a href="tools/apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索建置器的API</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
 ## 適用於每個團隊的代理工具
 
 >[!BEGINTABS]
@@ -214,7 +140,7 @@ CARDS
 
 [探索代理程式技能](tools/agent-skills.md)
 
->[!TAB 建置器的 API]
+>建置器的[!TAB API]
 
 以程式設計方式直接存取支援Adobe產品的相同API。 建立自訂的應用程式和整合，讓您的團隊能夠專注且控管特定CX Enterprise工作流程。
 
