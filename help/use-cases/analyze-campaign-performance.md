@@ -1,11 +1,11 @@
 ---
 title: 無需建立報表即可呈現行銷活動深入分析
-description: 使用CX Enterprise MCP Gateway，以簡單的語言詢問Customer Journey Analytics效能問題，並取得解答，而不需瀏覽Report Builder。
-last-substantial-update: 2026-06-02T00:00:00Z
+description: 使用CX Enterprise MCP以簡單的語言詢問Customer Journey Analytics效能問題，並且不需要瀏覽Report Builder即可獲得解答。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-02 -->
 
-![分析行銷活動績效](https://placehold.co/1600x900?text=Analyze+Campaign+Performance)
+![AI使用者端顯示改善行銷活動效能的建議後續步驟](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
 
 促銷活動分析過去需要在不同的工具中建立報表，現在則變成對話。 此逐步解說會示範如何將AI使用者端連線至Customer Journey Analytics (CJA)，並以淺顯的語言詢問效能問題。 如此可加快前往insight的時間，且無需手動建立報表。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Customer Journey Analytics (CJA) |
-| 代理工具 | CX Enterprise MCP閘道 |
-| 客群 | 分析人員、行銷活動經理 |
-| 先決條件 | MCP相容的AI使用者端、CJA存取 |
+| **CX Enterprise應用程式** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **客群** | 分析人員、行銷活動經理 |
+| **先決條件** | MCP相容的AI使用者端、CJA存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TAB Claude.ai]
 
-以自訂聯結器的形式連線CX Enterprise MCP Gateway，以存取Customer Journey Analytics工具。
+將CX Enterprise MCP連線為自訂聯結器，以存取Customer Journey Analytics工具。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
 2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode連線CX Enterprise MCP （需要Pro、Plus、Business、Enterprise或Education計畫）。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP Gateway：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
->有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕 — 未經您的確認不會採取任何動作。
+>有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
 ## 步驟1：探索可用的資料檢視
 
@@ -154,7 +154,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->透過CX Enterprise MCP Gateway存取的CJA工具，可在相同工作階段中，於CJA內建立區段、計算量度和Workspace專案。 若要更新其他應用程式中的促銷活動、歷程或內容，請連線相關的MCP伺服器或直接前往應用程式。
+>透過CX Enterprise MCP存取的CJA工具可以在相同工作階段中，於CJA內建立區段、計算量度和Workspace專案。 若要更新其他應用程式中的促銷活動、歷程或內容，請連線相關的MCP伺服器或直接前往應用程式。
 
 ## 您完成的內容
 
@@ -162,7 +162,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 ## 您可以完成更多工作
 
-CX Enterprise MCP Gateway可呈現的Customer Journey Analytics深入解析遠多於逐步解說。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
+CX Enterprise MCP可呈現的Customer Journey Analytics深入解析遠多於逐步解說。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
 
 +++找出有效與無效的內容
 
@@ -194,7 +194,7 @@ Show me conversion performance by traffic source.
 
 +++瞭解促成成果的原因
 
-標題量度會告訴您發生了什麼。 這些提示可協助您瞭解為什麼 — 數字背後是哪些區段、管道和接觸點。
+標題量度會告訴您發生了什麼。 這些提示可協助您瞭解原因：數字背後是哪些區段、管道和接觸點。
 
 **提示**
 
@@ -246,7 +246,7 @@ What would have the biggest impact on revenue?
 
 +++將深入分析轉化為行動
 
-透過CX Enterprise MCP Gateway存取的CJA工具可直接在CJA中建立區段、對象、計算量度和Workspace專案，無需離開您的AI工作階段。 使用這些提示來根據您的發現採取行動。
+透過CX Enterprise MCP存取的CJA工具可直接在CJA中建立區段、對象、計算量度和Workspace專案，無需離開您的AI工作階段。 使用這些提示來根據您的發現採取行動。
 
 **提示**
 

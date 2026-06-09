@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP伺服器、代理程式技能和API，將AI代理程式和開發工具連線到Adobe CX Enterprise功能。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491257/?captions=chi_hant&learn=on&enablevpops)
 
-讓AI成為您的Adobe CX Enterprise同事。 將您的AI使用者端連線到行銷活動、受眾、歷程和內容，並從您已經使用的任何工具中以簡單的語言與他們互動。 沒有新介面、沒有內容切換、不需要編碼即可開始。
+讓AI成為您的Adobe CX Enterprise同事。 將您的AI使用者端連線至行銷活動、對象、歷程和內容。 使用您已經使用的任何工具，以簡單的語言與他們互動。 沒有新介面、沒有內容切換、不需要編碼即可開始。
 
 >[!TIP]
->**從CX Enterprise MCP開始。** 一個連線可讓您的AI使用者端根據您組織的授權存取Adobe Journey Optimizer、Customer Journey Analytics和Real-Time CDP。 [立即連線](tools/mcp-servers.md#cx-enterprise-mcp)
+>**從CX Enterprise MCP開始。** 一個連線可讓您的AI使用者端根據您組織的授權存取Adobe Journey Optimizer、Customer Journey Analytics和Real-Time CDP。 [立即連線](tools/mcp-servers.md#cx-enterprise-mcp-servers)
 
 <!--
 CARDS
@@ -123,7 +123,7 @@ CARDS
 
 >[!TAB MCP伺服器]
 
-使用任何相容的AI使用者端以簡單語言存取CX Enterprise應用程式 — 不需要編碼。 從CX Enterprise MCP開始，單一連線至AJO、CJA和Real-Time CDP，或直接連線至AEM和其他應用程式。
+使用任何相容的AI使用者端，以簡單語言存取CX Enterprise應用程式。 不需要編碼。 從CX Enterprise MCP開始，單一連線至AJO、CJA和Real-Time CDP，或直接連線至AEM和其他應用程式。
 
 - 在幾分鐘內從Claude、Cursor、ChatGPT和其他與MCP相容的使用者端連線
 - 使用自然語言查詢行銷活動、對象和歷程資料
@@ -133,10 +133,10 @@ CARDS
 
 >[!TAB 代理程式技能]
 
-「代理商技能」會編碼Adobe網域專業知識，作為您的AI使用者端可遵循的指示。 此代理程式不會即興發揮，而是確切知道該做什麼 — 可靠、可重複，並符合Adobe最佳實務。
+「代理商技能」會編碼Adobe網域專業知識，作為您的AI使用者端可遵循的指示。 此代理程式不會即興發揮，而是確切知道要做什麼、可靠、可重複執行，並符合Adobe最佳實務。
 
 - 可重複的CX Enterprise工作流程的一致結果
-- 無需向代理程式說明Adobe — 由技能處理
+- 無需向代理程式說明Adobe：技能能處理
 - 在支援代理程式技能的AI使用者端間運作
 
 [探索代理程式技能](tools/agent-skills.md)

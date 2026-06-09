@@ -3,9 +3,9 @@ title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 9c62818daecf3c20230457da5b9b8086d954260f
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '2084'
 ht-degree: 3%
 
 ---
@@ -120,6 +120,8 @@ Adobe Target MCP處於公開測試版。 所有目前可用的工具都是唯讀
 
 在手動設定之前，請檢查[Adobe AI登入](https://developer.adobe.com/ai-registry/?type=connector)，以取得您的AI使用者端和Adobe應用程式的Managed聯結器。 受管理的聯結器會自動處理驗證。 如果您的使用者端和應用程式有可用的聯結器，請改用它，而不是下面的手動步驟。
 
+以下步驟使用CX Enterprise MCP端點作為範例。 相同的程式適用於任何Adobe MCP伺服器 — 交換您要連線的伺服器端點URL。
+
 ![連線到Adobe MCP伺服器的AI代理程式](../assets/hero-connect-mcp-servers.gif)
 
 >[!BEGINTABS]
@@ -136,7 +138,7 @@ Claude.ai透過帳戶設定中的自訂聯結器支援遠端MCP伺服器。
 
 1. 移至&#x200B;**設定>整合**。
 2. 按一下&#x200B;**新增自訂聯結器**。
-3. 輸入`https://cx-enterprise.adobe.io/mcp`作為URL和顯示名稱，例如`Adobe CX Enterprise`。
+3. 輸入伺服器端點作為URL （例如，CX Enterprise MCP為`https://cx-enterprise.adobe.io/mcp`）以及您選擇的顯示名稱。
 4. 按一下「**連線**」並使用您的Adobe ID登入。 選取正確的IMS組織。
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -145,7 +147,7 @@ Claude.ai透過帳戶設定中的自訂聯結器支援遠端MCP伺服器。
 
 ### 使用CLI
 
-執行`claude mcp add`以註冊CX Enterprise MCP。 一個連線可讓您根據組織的授權存取AJO、CJA和Real-Time CDP。
+執行`claude mcp add`以註冊Adobe MCP伺服器。 將伺服器名稱和URL取代為您要連線的伺服器值。 此範例使用CX Enterprise MCP：
 
 ```bash
 claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.io/mcp
@@ -153,7 +155,7 @@ claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.
 
 ### 編輯您的設定檔案
 
-將伺服器新增至專案根目錄（專案層級）中的`~/.claude.json` （全域）或`.mcp.json`：
+將伺服器新增至專案根目錄（專案層級）中的`~/.claude.json` （全域）或`.mcp.json`。 將索引鍵和URL取代為您要連線的伺服器值：
 
 ```json
 {
@@ -172,7 +174,7 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
 
 >[!TAB 游標]
 
-將CX Enterprise MCP加入您的Cursor `mcp.json`組態檔，然後透過&#x200B;**設定> MCP**&#x200B;連線。
+將Adobe MCP伺服器新增至您的Cursor `mcp.json`設定檔，然後透過&#x200B;**設定> MCP**&#x200B;連線。 將索引鍵和URL取代為您要連線的伺服器值。 此範例使用CX Enterprise MCP：
 
 - **全域（所有專案）：** `~/.cursor/mcp.json`
 - **專案層級：** `.cursor/mcp.json`在您的專案根目錄中
@@ -187,8 +189,6 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
   }
 }
 ```
-
-一個連線可讓您根據組織的授權存取AJO、CJA和Real-Time CDP。
 
 新增後，MCP伺服器會出現在游標設定中的&#x200B;**已安裝MCP伺服器**&#x200B;下。 選取任何顯示&#x200B;**需要驗證**&#x200B;且使用您的Adobe ID登入的伺服器旁的&#x200B;**連線**。 選取可存取應用程式的IMS組織。
 
@@ -209,7 +209,7 @@ ChatGPT透過Pro、Plus、Business、Enterprise和Education計畫提供的[開�
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用開發人員模式。
 2. 移至&#x200B;**設定>整合**。
 3. 按一下&#x200B;**新增自訂聯結器**&#x200B;並選擇&#x200B;**遠端MCP伺服器**。
-4. 輸入`https://cx-enterprise.adobe.io/mcp`作為URL，輸入`Adobe CX Enterprise`作為名稱。
+4. 輸入伺服器端點作為URL （例如，CX Enterprise MCP為`https://cx-enterprise.adobe.io/mcp`）以及您選擇的顯示名稱。
 5. 將驗證設定為&#x200B;**OAuth**。
 6. 按一下「**連線**」並使用您的Adobe ID登入。 選取正確的IMS組織。
 
@@ -224,7 +224,7 @@ OpenAI Codex CLI透過TOML組態支援遠端MCP伺服器。
 - **使用者層級（所有專案）：** `~/.codex/config.toml`
 - 專案根目錄中的&#x200B;**專案範圍：** `.codex/config.toml`
 
-新增CX Enterprise MCP：
+將區段名稱和URL取代為您要連線的伺服器值。 此範例使用CX Enterprise MCP：
 
 ```toml
 [mcp_servers.adobe-cx-enterprise]
@@ -243,7 +243,7 @@ Microsoft Copilot Studio使用MCP上線精靈連線到遠端MCP伺服器，精�
 1. 在Copilot Studio中開啟代理程式。
 2. 移至&#x200B;**工具**&#x200B;頁面。
 3. 選取&#x200B;**新增工具>新增工具>模型內容通訊協定**。
-4. 在MCP上線精靈中，輸入：
+4. 在MCP上線精靈中，輸入伺服器詳細資訊 — 例如CX Enterprise MCP：
    - **伺服器名稱：** `Adobe CX Enterprise`
    - **伺服器URL：** `https://cx-enterprise.adobe.io/mcp`
 5. 將驗證設定為&#x200B;**OAuth 2.0**，並使用您的Adobe IMS授權和權杖URL進行設定。

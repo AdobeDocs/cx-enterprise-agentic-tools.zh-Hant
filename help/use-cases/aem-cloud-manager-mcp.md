@@ -1,12 +1,12 @@
 ---
 title: 放心地部署至AEM as a Cloud Service
 description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
-last-substantial-update: 2026-05-21T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 管理Adobe Experience Manager環境通常表示登入Cloud Manager、瀏覽管道和環境，以及切換內容以追蹤部署狀態。 本逐步解說會說明如何使用AEM Cloud Manager MCP伺服器從AI使用者端處理這些作業，讓開發人員和作業團隊可以檢查狀態、檢閱管道並在不離開AI環境的情況下處理部署詳細資訊。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Adobe Experience Manager Cloud Manager |
-| 代理工具 | AEM Cloud Manager MCP伺服器 |
-| 對象 | 開發人員、DevOps、營運團隊 |
-| 先決條件 | MCP相容的AI使用者端、AEM Cloud Manager存取 |
+| **CX Enterprise應用程式** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| **代理工具** | [AEM Cloud Manager MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| **客群** | 開發人員、DevOps、營運團隊 |
+| **先決條件** | MCP相容的AI使用者端、AEM Cloud Manager存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 接著有&#x200B;**更多提示嘗試**&#x200B;區段，以供您在同一工作階段中進行其他探索。
 
@@ -111,11 +111,11 @@ https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 
 >[!NOTE]
 >
->出現提示時，請使用您的Adobe ID登入，並選取連結至您的AEM as a Cloud Service程式的IMS組織。 許可權是在Cloud Manager層級強制執行 — 您的AI使用者端只能執行您的帳戶獲授權的操作。
+>出現提示時，請使用您的Adobe ID登入，並選取連結至您的AEM as a Cloud Service程式的IMS組織。 許可權會在Cloud Manager層級強制執行。 您的AI使用者端只能執行您的帳戶所授權的操作。
 >
 >在首次連線時，您的AI使用者端可能會要求您確認您的組織或AEM程式。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
->有些工具在執行前會提示您核准。 檢閱提議的動作並核准或拒絕 — 未經您的確認不會採取任何動作。
+>有些工具在執行前會提示您核准。 檢閱建議的動作，並核准或拒絕。 未經您的確認，不會採取任何動作。
 
 ## 步驟1：檢查環境狀態
 
@@ -183,7 +183,7 @@ What is the status of the triggered pipeline?
 
 ## 您完成的內容
 
-您使用AEM Cloud Manager MCP伺服器檢查環境健康情況、檢閱管道歷史記錄、觸發部署及驗證其狀態（無需開啟Cloud Manager介面）。 透過在單一AI工作階段中結合環境可見度和部署控制，開發和營運團隊可以更快回應問題，並將其工作流程儲存在他們已使用的工具內。
+您在不開啟Cloud Manager介面的情況下，使用AEM Cloud Manager MCP伺服器來檢查環境健康情況、檢閱管道歷史記錄、觸發部署及驗證其狀態。 透過在單一AI工作階段中結合環境可見度和部署控制，開發和營運團隊可以更快回應問題，並將其工作流程儲存在他們已使用的工具內。
 
 ## 您可以完成更多工作
 

@@ -3,9 +3,9 @@ title: 根據效能資料最佳化內容
 description: 在一個AI工作階段中搭配使用CJA和AEM，在不切換工具的情況下尋找具有轉換差距的行銷活動、診斷原因並更新內容。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -14,16 +14,16 @@ ht-degree: 1%
 # 根據效能資料最佳化內容
 <!-- last-modified: 2026-06-08 -->
 
-![根據效能資料最佳化內容](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
+![AI使用者端會並排比較原始和更新的頁面內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-一般而言，關閉行銷活動績效資料與內容更新之間的回圈，就表示要在您的分析工具與CMS之間切換。 本逐步解說會說明如何在相同的AI工作階段中連結Customer Journey Analytics和AEM — 顯示具有轉換差距的行銷活動、診斷驅動因素、檢查內容、取得目標式建議，以及套用變更而不需離開您的交談。
+一般而言，關閉行銷活動績效資料與內容更新之間的回圈，就表示要在您的分析工具與CMS之間切換。 本逐步解說會說明如何在相同的AI工作階段中連結Customer Journey Analytics和AEM：顯示有轉換差距的行銷活動、診斷驅動因素、檢查內容、取得目標式建議，以及套用變更而不需離開您的交談。
 
-| | |
+| 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | Customer Journey Analytics、Adobe Experience Manager as a Cloud Service |
-| 代理工具 | CX Enterprise MCP Gateway、AEM Content MCP Server |
-| 對象 | 行銷活動經理、內容策略師、行銷作業 |
-| 先決條件 | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |
+| **CX Enterprise應用程式** | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **客群** | 行銷活動經理、內容策略師、行銷作業 |
+| **先決條件** | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 | 伺服器 | 端點 |
 | --- | --- |
-| CX Enterprise MCP閘道 | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 | 伺服器 | 端點 |
 | --- | --- |
-| CX Enterprise MCP閘道 | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 | 伺服器 | 端點 |
 | --- | --- |
-| CX Enterprise MCP閘道 | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
@@ -82,12 +82,12 @@ ht-degree: 1%
 >
 >在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
->有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕 — 未經您的確認不會採取任何動作。
+>有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
 
 ## 步驟1：尋找有轉換間隔的行銷活動
 
-使用CJA來揭露點進強烈但轉換率低的行銷活動。 這種模式（高意圖、低完成）通常指向登陸頁面上的內容或體驗問題。
+使用CJA來揭露點進強烈但轉換率低的行銷活動。 此模式（高意圖、低完成）通常指向登陸頁面上的內容或體驗問題。
 
 ```
 Which campaigns have strong click-through but low conversion in the last 30 days?
@@ -171,7 +171,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 ## 您完成的內容
 
-您在單一AI工作階段中連線Customer Journey Analytics和AEM，並從行銷活動資料移至已部署的內容變更，無需切換工具。 您找出具有轉換差距的行銷活動、診斷根本原因、檢查登入頁面、收到以資料和內容為基礎的目標建議，並將變更套用至相同對話中。 這縮短了Analytics insight與發佈內容之間的回饋迴路，並可在相同工作階段中縮放為任意數量的表現缺佳頁面。
+您在單一AI工作階段中連線Customer Journey Analytics和AEM，並從行銷活動資料移至已部署的內容變更，無需切換工具。 您找出具有轉換差距的行銷活動、診斷根本原因、檢查登入頁面、收到以資料和內容為基礎的目標建議，並將變更套用至相同對話中。 這縮短了Analytics insight與已發佈內容之間的回饋迴路，並可在相同工作階段中縮放為任意數量的表現缺佳頁面。
 
 
 ## 您可以完成更多工作
