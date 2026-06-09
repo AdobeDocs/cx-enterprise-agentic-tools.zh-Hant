@@ -3,10 +3,10 @@ title: 適用於建置器的API
 description: 使用Adobe CX Enterprise API建立自訂應用程式和整合。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 23%
+source-wordcount: '935'
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 23%
 Adobe CX Enterprise API可讓開發人員和AI輔助編碼代理工具直接存取Adobe資料和工作流程。 使用這些功能來建立自訂應用程式、自動化整合，並將Adobe功能內嵌到您自己的系統中。 當您需要以程式設計方式完整控制系統整合，或需要以Adobe資料為基礎建立應用程式時，API是您正確的選擇。 如需代理程式導向的對話式存取Adobe工作流程，請參閱[MCP伺服器](mcp-servers.md)。
 
 ## Adobe CX Enterprise API
-
-Adobe CX Enterprise API公開可支援Adobe Experience Platform、Journey Optimizer和Customer Journey Analytics等產品的核心資料與作業。 每個API都遵循API優先設計，讓開發人員和AI輔助編碼代理工具可直接、程式化地存取Adobe內部使用的相同功能。 使用這些功能來建立自訂應用程式、自動化工作流程，並將Adobe資料整合到您自己的系統中。
 
 <!--
 CARDS
@@ -68,7 +66,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## 適用於建置器與MCP伺服器的API
-
-當您需要完全控制系統整合或正在建置自訂應用程式時，請使用API。 當您希望AI代理程式直接搭配Adobe工作流程使用時，請使用MCP伺服器。
-
-| | API | MCP伺服器 |
-| --- | --- | --- |
-| 直接系統整合 | 是 | 有時 |
-| 代理程式友善協調 | 有限 | 是 |
-| 原始資料存取 | 是 | 通常是抽象的 |
-| 自訂應用程式開發 | 主要使用案例 | 次要 |
-| AI輔助工作流程 | 支援 | 主要使用案例 |
-
 ## 開始使用建置器適用的API
 
 ![連線到Adobe CX Enterprise API的IDE](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **保持規格為最新**
 
 當Adobe發佈新的API版本時：將新的快照集下載到`/specs`、更新`README.md`中的日期，並重新產生索引和`AGENTS.md`。
+
+## 適用於建置器與MCP伺服器的API
+
+當您需要完全控制系統整合或正在建置自訂應用程式時，請使用API。 當您希望AI代理程式直接搭配Adobe工作流程使用時，請使用MCP伺服器。
+
+| | API | MCP伺服器 |
+| --- | --- | --- |
+| 直接系統整合 | 是 | 有時 |
+| 代理程式友善協調 | 有限 | 是 |
+| 原始資料存取 | 是 | 通常是抽象的 |
+| 自訂應用程式開發 | 主要使用案例 | 次要 |
+| AI輔助工作流程 | 支援 | 主要使用案例 |
