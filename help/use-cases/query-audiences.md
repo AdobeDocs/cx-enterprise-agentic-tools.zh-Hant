@@ -3,10 +3,10 @@ title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 3%
+source-wordcount: '862'
+ht-degree: 2%
 
 ---
 
@@ -230,7 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP伺服器設定與工具參考 |
-| [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp) | MCP伺服器中繼資料與可用性 |
-| [Real-Time CDP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP應用程式檔案 |
-| [AEP目的地檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home) | 完整目的地參考 |
+| [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | MCP伺服器中繼資料與可用性 |
+| [Real-Time CDP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home){target="_blank"} | 完整的Real-Time CDP應用程式檔案 |

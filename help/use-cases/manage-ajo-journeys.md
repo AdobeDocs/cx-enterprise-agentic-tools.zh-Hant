@@ -3,10 +3,10 @@ title: 在影響客戶之前擷取歷程問題
 description: 使用CX Enterprise MCP監控作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及到您的對象之前顯示營運問題。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '984'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 | --- | --- |
 | CX企業應用程式 | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| 對象 | 行銷活動管理員、行銷人員 |
+| 客群 | 行銷活動管理員、行銷人員 |
 | 先決條件 | MCP相容的AI使用者端、AJO存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
@@ -253,7 +253,5 @@ What channel configurations are set up in our AJO environment?
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| AI登入中的[AJO MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP伺服器工具與可用性 |
-| [AJO檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) | 完整的AJO應用程式檔案 |
-| [AJO API](https://developer.adobe.com/journey-optimizer-apis/) | 自訂整合的AJO API參考 |
-| [AJO教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview) | 教學課程影片和學習路徑 |
+| AI登入中的[AJO MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP伺服器工具與可用性 |
+| [AJO檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} | 完整的AJO應用程式檔案 |
