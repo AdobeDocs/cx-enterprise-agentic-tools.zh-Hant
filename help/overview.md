@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP伺服器、代理程式技能和API，將AI代理程式和開發工具連線到Adobe CX Enterprise功能。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '594'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491257/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 讓AI成為您的Adobe CX Enterprise共同作業人員。 將您的AI使用者端連線至行銷活動、對象、歷程和內容。 使用您已經使用的任何工具，以簡單的語言與他們互動。 沒有新介面、沒有內容切換、不需要編碼即可開始。
 
@@ -141,7 +141,7 @@ CARDS
 
 [探索代理程式技能](tools/agent-skills.md)
 
->[!TAB 建置器的 API]
+>建置器的[!TAB API]
 
 以程式設計方式直接存取支援Adobe產品的相同API。 建立自訂的應用程式和整合，讓您的團隊能夠專注且控管特定CX Enterprise工作流程。
 
@@ -228,7 +228,7 @@ CARDS
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp) | MCP伺服器的完整目錄 |
+| [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp) | 特定Adobe MCP伺服器的受管理聯結器和伺服器詳細資料 |
 | [Adobe代理程式技能](https://github.com/adobe/skills) | 適用於CX Enterprise工作流程的Adobe組織代理程式技能 |
 | [Adobe API目錄](https://developer.adobe.com/apis) | 完整Adobe CX Enterprise API參考 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API專案設定和驗證 |

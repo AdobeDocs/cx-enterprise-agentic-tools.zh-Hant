@@ -3,10 +3,10 @@ title: 資源
 description: 所有Adobe CX Enterprise Agentic Tools檔案、註冊處、API和開發人員指南的單一入口點。
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 16%
+source-wordcount: '552'
+ht-degree: 17%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 16%
 
 | 資源 | 您會找到的內容 |
 |---|---|
-| [Adobe AI登入： MCP伺服器](https://developer.adobe.com/ai-registry/?type=mcp) | 包含中繼資料、端點和狀態的可用MCP伺服器的完整目錄 |
-| [Adobe AI登入：代理程式技能](https://developer.adobe.com/ai-registry/?type=skill) | 完整的可用代理程式技能目錄，以及可用性和設定詳細資訊 |
+| [Adobe AI登入： MCP伺服器](https://developer.adobe.com/ai-registry/?type=mcp) | 特定Adobe MCP伺服器的受管理聯結器和伺服器詳細資料 |
+| [Adobe AI登入：代理程式技能](https://developer.adobe.com/ai-registry/?type=skill) | 代理程式技能清單，以及所選技能的可用性和設定詳細資訊 |
 | [Adobe API目錄](https://developer.adobe.com/apis) | 完整Adobe CX Enterprise API參考 |
 
 ## MCP伺服器
@@ -33,14 +33,14 @@ ht-degree: 16%
 |---|---|
 | [Analytics MCP檔案](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP伺服器設定指南和工具參考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP伺服器的詳細使用指南 |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP伺服器安裝指南 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP伺服器安裝指南 |
 
 ## 代理程式技能
 
 | 資源 | 您會找到的內容 |
 |---|---|
 | [Adobe技能存放庫](https://github.com/adobe/skills) | 所有代理程式技能、安裝方法和實作詳細資訊的規範來源 |
-| [Adobe AI登入：代理程式技能](https://developer.adobe.com/ai-registry/?type=skill) | 包含中繼資料和可用性狀態的可用代理程式技能的完整目錄 |
+| [Adobe AI登入：代理程式技能](https://developer.adobe.com/ai-registry/?type=skill) | 代理程式技能清單，以及所選技能的中繼資料 |
 
 ## 適用於建置器的API
 
@@ -74,10 +74,10 @@ ht-degree: 16%
 
 | 資源 | 您會找到的內容 |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home) | 完整的AEP應用程式檔案 |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | 完整的AEP應用程式檔案 |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) | 完整的AJO應用程式檔案 |
 | [Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP應用程式檔案 |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing) | 完整的CJA應用程式檔案 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | 完整的CJA應用程式檔案 |
 | [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/landing) | 完整的Adobe Analytics檔案 |
 | [AEP目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home) | 目的地設定和管理 |
 | [AJO教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview) | AJO教學影片和學習路徑 |
