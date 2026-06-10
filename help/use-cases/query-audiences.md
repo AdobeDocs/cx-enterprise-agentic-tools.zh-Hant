@@ -3,9 +3,9 @@ title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | MCP伺服器中繼資料與可用性 |
+| [Adobe AI登入](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 特定Adobe MCP伺服器的受管理聯結器和伺服器詳細資料 |
 | [Real-Time CDP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home){target="_blank"} | 完整的Real-Time CDP應用程式檔案 |
