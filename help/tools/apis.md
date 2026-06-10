@@ -3,10 +3,10 @@ title: 適用於建置器的API
 description: 使用Adobe CX Enterprise API建立自訂應用程式和整合。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -194,6 +194,8 @@ project/
 當Adobe發佈新的API版本時：將新的快照集下載到`/specs`、更新`README.md`中的日期，並重新產生索引和`AGENTS.md`。
 
 ## 作用中的API
+
+API可讓開發團隊完全以程式設計方式控制，以建立可自動化特定CX Enterprise工作流程的重點應用程式。 這些逐步解說會顯示端對端建立的真實整合，從憑證設定到組織可送出的工作程式碼。
 
 <!--
 CARDS

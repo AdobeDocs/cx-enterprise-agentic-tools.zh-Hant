@@ -3,9 +3,9 @@ title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2167'
 ht-degree: 3%
 
 ---
@@ -257,9 +257,9 @@ Microsoft Copilot Studio使用MCP上線精靈連線到遠端MCP伺服器，精�
 
 >[!ENDTABS]
 
-## 執行中的代理工具
+## MCP伺服器正在執行中
 
-請參閱套用至實際業務工作流程的Adobe CX Enterprise MCP伺服器。
+請參閱Adobe CX Enterprise MCP伺服器，瞭解如何解決實際的業務問題。 每個逐步解說都會從真正的操作挑戰開始，並展示AI使用者端如何以簡單的語言解決它，而不需要切換工具或編寫程式碼。
 
 <!--
 CARDS

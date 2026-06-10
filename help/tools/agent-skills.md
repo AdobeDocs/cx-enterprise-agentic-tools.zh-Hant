@@ -3,9 +3,9 @@ title: 代理程式技能
 description: 由Adobe組織的工作流程與指示，可引導AI代理一致地完成CX Enterprise工作。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Adobe Analytics中KPI監控、funnel分析和執行報告工作流程的代理�
 - **GitHub CLI**： `gh upskill list`
 
 ## 代理程式實際操作技能
+
+代理程式技能可讓Adobe網域專長在您的AI使用者端中運作，因此代理程式會遵循證實的工作流程，而非即興發揮。 以下每個逐步解說都會顯示以可靠方式完成的特定業務任務，並以Adobe最佳實務為指引，從開始到結束全程執行。
 
 <!--
 CARDS
