@@ -1,11 +1,11 @@
 ---
 title: 在影響客戶之前擷取歷程問題
 description: 使用CX Enterprise MCP監控作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及到您的對象之前顯示營運問題。
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ![AI使用者端摘要行銷活動和歷程策略與執行摘要](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-清楚瞭解哪些歷程處於作用中狀態、哪些條件驅動這些歷程，以及行銷活動的設定方式通常意味著開啟Adobe Journey Optimizer並導覽其介面。 本逐步解說會說明如何透過AI使用者端取得相同的可見度，使用CX Enterprise MCP透過簡單語言問題查詢AJO歷程和促銷活動資料。
+未偵測到的歷程問題可在任何人通知前聯絡客戶。 本逐步解說會說明如何透過檢查作用中的AJO歷程、檢閱行銷活動設定，以及透過AI使用者端提出營運問題、使用CX Enterprise MCP以簡單語言取得解答，而不需要開啟Adobe Journey Optimizer，而在這些方面保持領先地位。
 
 | 案例詳細資料 | |
 | --- | --- |

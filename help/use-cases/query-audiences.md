@@ -1,11 +1,11 @@
 ---
 title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 ![AI使用者端提供具有啟動建議之優先順序的對象策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-瞭解哪些對象已啟用、流向何處以及目的地是否健康通常表示開啟Real-Time CDP並導覽多個畫面。 本逐步解說會說明如何透過AI使用者端取得相同的答案，使用RTCDP MCP伺服器透過簡單語言問題呈現目的地設定、啟用狀態和資料流健康狀況。
+瞭解哪些對象是即時的、在哪裡流動，以及目的地是否健康在行銷活動開始之前或行銷活動表現不佳至關重要。 本逐步解說將展示如何透過AI使用者端取得完整的啟用圖片，使用CX Enterprise MCP在幾秒鐘內呈現對象狀態和目的地健康狀態，而不需要開啟Real-Time CDP。
 
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| 對象 | 行銷人員、分析人員、操作者 |
+| 客群 | 行銷人員、分析人員、操作者 |
 | 先決條件 | MCP相容的AI使用者端、Real-Time CDP存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。

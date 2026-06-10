@@ -1,11 +1,11 @@
 ---
 title: 保持內容最新狀態，並加快傳送更新的速度
 description: 使用AEM Content MCP Server來尋找、檢閱、更新和發佈AEM內容，而不需在工具之間切換。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 3%
 
 ![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
-Adobe Experience Manager中的內容操作，從尋找頁面和檢閱內容到進行更新及發佈，通常需要直接導覽AEM介面。 此逐步解說會說明如何使用AEM Content MCP Server透過AI使用者端處理這些作業，讓內容團隊可以更快速地移動，而無需在工具之間切換內容。
+維持最新的網站內容是持續不斷的營運壓力。 本逐步解說說明內容團隊如何透過AI使用者端尋找、檢閱、更新和發佈AEM頁面和內容片段，並使用AEM Content MCP Server來縮短內容決策與即時更新之間的時間。
 
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
 | 代理工具 | [AEM Content MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| 對象 | 內容管理員、行銷團隊 |
+| 客群 | 內容管理員、行銷團隊 |
 | 先決條件 | MCP相容的AI使用者端、AEM as a Cloud Service存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。

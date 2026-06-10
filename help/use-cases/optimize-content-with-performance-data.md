@@ -1,28 +1,28 @@
 ---
-title: 根據效能資料最佳化內容
+title: 透過資料導向更新縮小內容效能差距
 description: 在一個AI工作階段中搭配使用CJA和AEM，在不切換工具的情況下尋找具有轉換差距的行銷活動、診斷原因並更新內容。
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# 根據效能資料最佳化內容
-<!-- last-modified: 2026-06-08 -->
+# 透過資料導向更新縮小內容效能差距
+<!-- last-modified: 2026-06-10 -->
 
 ![AI使用者端會並排比較原始和更新的頁面內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-一般而言，關閉行銷活動績效資料與內容更新之間的回圈，就表示要在您的分析工具與CMS之間切換。 本逐步解說會說明如何在相同的AI工作階段中連結Customer Journey Analytics和AEM：顯示有轉換差距的行銷活動、診斷驅動因素、檢查內容、取得目標式建議，以及套用變更而不需離開您的交談。
+內容效能差距會影響行銷活動的成果，通常表示您必須在分析工具和CMS之間切換。 本逐步解說會說明如何在單一AI工作階段中執行此作業：在Customer Journey Analytics中找出有轉換差距的行銷活動、診斷原因、在AEM中檢查表現不佳的內容，並在不離開交談的情況下套用更新。
 
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| 對象 | 行銷活動經理、內容策略師、行銷作業 |
+| 客群 | 行銷活動經理、內容策略師、行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
