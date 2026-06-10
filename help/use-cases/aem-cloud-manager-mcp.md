@@ -278,4 +278,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | 完整的AEM應用程式檔案 |
+| [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service){target="_blank"} | 完整的AEM應用程式檔案 |
