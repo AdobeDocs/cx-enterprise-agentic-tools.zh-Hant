@@ -2,11 +2,11 @@
 title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 index: false
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 2b270c439474350df61762753700d7a3919b0cb9
+last-substantial-update: 2026-06-15T00:00:00Z
+source-git-commit: 6140354d31e3c42d148be153227306d92c9f5f89
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 3%
+source-wordcount: '2123'
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,7 @@ https://cx-enterprise.adobe.io/mcp
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | 檢閱歷程、行銷活動和管道設定 |
 | Adobe Journey Optimizer B2B edition | 管理B2B歷程、帳戶計畫、購買群組及個人化 |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | 查詢報表、探索資料檢視及製作工作區 |
+| [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server) | 管理方案、行銷活動、銷售機會、智慧清單、電子郵件和表單 |
 | [Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | 檢查對象啟用狀態、目的地健康狀況和資料流健康狀況 |
 
 如需完整檔案，請參閱[CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
@@ -81,16 +82,6 @@ Adobe Experience Manager有多個MCP伺服器可供不同工作流程使用。
 >[!NOTE]
 >
 >存取權取決於您組織的Adobe Experience Platform許可權和使用者的許可權。
-
->[!TAB Marketo Engage]
-
-| MCP伺服器 | 端點 | 您可以做什麼 |
-| --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理方案、行銷活動、銷售機會、智慧清單、電子郵件和表單 |
-
->[!NOTE]
->
->Marketo Engage MCP使用Marketo原生服務憑證，而不是Adobe IMS。 如需驗證設定，請參閱[Marketo Engage MCP伺服器檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server)。 存取權取決於您的Marketo Engage訂閱和API使用者的許可權。
 
 >[!TAB Target]
 
