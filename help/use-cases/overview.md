@@ -2,10 +2,9 @@
 title: 執行中的代理工具
 description: 逐步解說，顯示套用至實際業務工作流程的Adobe CX Enterprise Agentic Tools。
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -74,7 +73,7 @@ CARDS
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">表面行銷活動深入分析</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -97,7 +96,7 @@ CARDS
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢查對象啟用</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -120,7 +119,7 @@ CARDS
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">監視您的歷程</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -143,7 +142,7 @@ CARDS
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">快送內容</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -166,7 +165,7 @@ CARDS
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">縮小效能差距</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -189,7 +188,7 @@ CARDS
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">部署時充滿信心</span>
-                </a>
+                
             </div>
         </div>
     </div>

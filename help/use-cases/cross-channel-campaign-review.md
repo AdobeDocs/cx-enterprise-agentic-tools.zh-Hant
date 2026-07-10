@@ -2,8 +2,7 @@
 title: 執行跨頻道行銷活動審查
 description: 在單一AI工作階段中使用CX Enterprise MCP，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%
@@ -21,9 +20,9 @@ ht-degree: 5%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| 對象 | 行銷活動經理，行銷作業 |
+| 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
@@ -91,7 +90,7 @@ What journeys are currently active in AJO?
 | 購買後追蹤 | 電子郵件、簡訊 | 2026年5月14日 |
 | 再次參與忠誠度 | 電子郵件 | 2026年5月20日 |
 | 捨棄的購物車：24小時 | 電子郵件、簡訊 | 2026年5月10日 |
-| Spring Promotion | 電子郵件、推播 | 2026年5月19日 |
+| Spring Promotion | 電子郵件、推播 | 2026 年 5 月 19 日 |
 | 回合：90天非使用中 | 電子郵件 | 2026年4月28日 |
 | 生日獎勵 | 電子郵件 | 2026年4月15日 |
 | 重新參與：推播選擇退出 | 簡訊 | 2026年5月12日 |

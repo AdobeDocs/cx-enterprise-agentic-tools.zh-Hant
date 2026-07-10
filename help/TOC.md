@@ -2,8 +2,7 @@
 user-guide-title: Adobe CX Enterprise Agentic Tools
 breadcrumb-title: 代理工具
 user-guide-description: 使用MCP伺服器、代理程式技能和API，將AI代理程式和開發工具連線到Adobe CX Enterprise功能。
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 6%
