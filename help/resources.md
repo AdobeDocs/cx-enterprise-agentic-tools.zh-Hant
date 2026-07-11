@@ -2,11 +2,10 @@
 title: 資源
 description: 所有Adobe CX Enterprise Agentic Tools檔案、註冊處、API和開發人員指南的單一入口點。
 last-substantial-update: 2026-05-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 17%
+source-wordcount: '555'
+ht-degree: 20%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 17%
 |---|---|
 | [Analytics MCP檔案](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP伺服器設定指南和工具參考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP伺服器的詳細使用指南 |
-| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP伺服器安裝指南 |
+| [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP伺服器安裝指南 |
 
 ## 代理程式技能
 

@@ -2,10 +2,9 @@
 title: 適用於建置器的API
 description: 使用Adobe CX Enterprise API建立自訂應用程式和整合。
 last-substantial-update: 2026-06-02T00:00:00Z
-index: false
-source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '928'
 ht-degree: 9%
 
 ---
@@ -228,7 +227,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">嘗試使用API</span>
-                </a>
+                
             </div>
         </div>
     </div>

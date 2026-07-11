@@ -2,8 +2,7 @@
 title: 在影響客戶之前擷取歷程問題
 description: 使用CX Enterprise MCP監控作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及到您的對象之前顯示營運問題。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 2%

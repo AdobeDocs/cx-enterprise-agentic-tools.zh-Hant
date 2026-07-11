@@ -2,8 +2,7 @@
 title: 透過資料導向更新縮小內容效能差距
 description: 在一個AI工作階段中搭配使用CJA和AEM，在不切換工具的情況下尋找具有轉換差距的行銷活動、診斷原因並更新內容。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%

@@ -2,10 +2,9 @@
 title: 代理程式技能
 description: 由Adobe組織的工作流程與指示，可引導AI代理一致地完成CX Enterprise工作。
 last-substantial-update: 2026-05-19T00:00:00Z
-index: false
-source-git-commit: 8630ab022f4565471b6f8e357d5d87b7e8507ff3
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
@@ -118,7 +117,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">嘗試使用代理程式技能</span>
-                </a>
+                
             </div>
         </div>
     </div>

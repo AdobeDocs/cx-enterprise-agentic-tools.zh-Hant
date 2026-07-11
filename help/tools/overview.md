@@ -2,10 +2,9 @@
 title: 代理工具
 description: 比較Builders的MCP伺服器、代理程式技能和API，並為Adobe CX Enterprise工作流程選擇正確的代理程式工具。
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -60,7 +59,7 @@ CARDS
                 </div>
                 <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索MCP伺服器</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -83,7 +82,7 @@ CARDS
                 </div>
                 <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理程式技能</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -106,7 +105,7 @@ CARDS
                 </div>
                 <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索建置器的API</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -221,7 +220,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢查對象啟用</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -244,7 +243,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">嘗試使用代理程式技能</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -267,7 +266,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">嘗試使用API</span>
-                </a>
+                
             </div>
         </div>
     </div>
