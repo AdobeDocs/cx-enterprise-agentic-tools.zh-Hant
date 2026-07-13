@@ -14,7 +14,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480353/?captions=chi_hant&learn=on&enablevpops)
 
 部署信賴源自於您在推送前知道環境狀況良好。 本逐步解說會說明如何使用AEM Cloud Manager MCP伺服器檢查AEM環境狀態、檢閱管道歷史記錄及從AI使用者端觸發部署，讓團隊可以快速移動而不會失去可見度。
 
