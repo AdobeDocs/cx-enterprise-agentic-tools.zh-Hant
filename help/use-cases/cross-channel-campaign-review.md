@@ -2,9 +2,9 @@
 title: 執行跨頻道行銷活動審查
 description: 在單一AI工作階段中使用CX Enterprise MCP，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1415'
 ht-degree: 5%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-05-21 -->
 
-![執行跨頻道行銷活動評論](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![執行跨頻道行銷活動評論](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+
+*選取以縮放。*
 
 全面掌握行銷活動健康情況需要來自多個系統的資料：來自AJO的活動歷程、來自Real-Time CDP的受眾啟用狀態，以及來自CJA的績效量度。 此逐步解說會說明如何在單一AI工作階段中連線所有三個，讓您能夠在一個交談中（而不是三個單獨的工具）從歷程狀態到受眾健康狀態再到效能趨勢。
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |

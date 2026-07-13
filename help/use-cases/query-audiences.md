@@ -2,9 +2,9 @@
 title: 瞭解您的對象及其啟用位置
 description: 使用CX Enterprise MCP來監視對象啟用狀態、檢查目的地健康狀況，並在問題影響您的行銷活動之前瞭解問題。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![AI使用者端提供具有啟動建議之優先順序的對象策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![AI使用者端提供具有啟動建議之優先順序的對象策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*選取以縮放。*
 
 瞭解哪些對象是即時的、在哪裡流動，以及目的地是否健康在行銷活動開始之前或行銷活動表現不佳至關重要。 本逐步解說將展示如何透過AI使用者端取得完整的啟用圖片，使用CX Enterprise MCP在幾秒鐘內呈現對象狀態和目的地健康狀態，而不需要開啟Real-Time CDP。
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++檢視範例回應
 
-![AI使用者端列出可用的對象及其所代表的客戶行為](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![AI使用者端列出可用的對象及其所代表的客戶行為](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++檢視範例回應
 
-![AI使用者端會識別最大的對象，並解釋哪些因素可讓這些對象發揮其價值](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![AI使用者端會識別最大的對象，並解釋哪些因素可讓這些對象發揮其價值](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++檢視範例回應
 
-![AI使用者端顯示對象啟用狀態和目的地對應](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+![AI使用者端顯示對象啟用狀態和目的地對應](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++檢視範例回應
 
-![提供優先受眾策略建議的AI使用者端](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![提供優先受眾策略建議的AI使用者端](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 

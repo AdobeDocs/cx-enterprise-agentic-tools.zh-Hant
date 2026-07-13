@@ -2,9 +2,9 @@
 title: 放心地部署至AEM as a Cloud Service
 description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480353/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 部署信賴源自於您在推送前知道環境狀況良好。 本逐步解說會說明如何使用AEM Cloud Manager MCP伺服器檢查AEM環境狀態、檢閱管道歷史記錄及從AI使用者端觸發部署，讓團隊可以快速移動而不會失去可見度。
 
@@ -126,7 +126,9 @@ What is the status of the production environment?
 
 +++檢視範例回應
 
-![AI使用者端顯示來自Cloud Manager的生產環境狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png)
+![AI使用者端顯示來自Cloud Manager的生產環境狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -141,7 +143,9 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++檢視範例回應
 
-![AI使用者端顯示生產管道的最後五個管道執行](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png)
+![AI使用者端顯示生產管道的最後五個管道執行](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -156,7 +160,9 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++檢視範例回應
 
-![顯示管道觸發確認的AI使用者端和反映執行中管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
+![顯示管道觸發確認的AI使用者端和反映執行中管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -175,7 +181,9 @@ What is the status of the triggered pipeline?
 
 +++檢視範例回應
 
-![AI使用者端顯示觸發的管道執行狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
+![AI使用者端顯示觸發的管道執行狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 

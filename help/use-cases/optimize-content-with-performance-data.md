@@ -2,9 +2,9 @@
 title: 透過資料導向更新縮小內容效能差距
 description: 在一個AI工作階段中搭配使用CJA和AEM，在不切換工具的情況下尋找具有轉換差距的行銷活動、診斷原因並更新內容。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,14 +13,16 @@ ht-degree: 2%
 # 透過資料導向更新縮小內容效能差距
 <!-- last-modified: 2026-06-10 -->
 
-![AI使用者端會並排比較原始和更新的頁面內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![AI使用者端會並排比較原始和更新的頁面內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*選取以縮放。*
 
 內容效能差距會影響行銷活動的成果，通常表示您必須在分析工具和CMS之間切換。 本逐步解說會說明如何在單一AI工作階段中執行此作業：在Customer Journey Analytics中找出有轉換差距的行銷活動、診斷原因、在AEM中檢查表現不佳的內容，並在不離開交談的情況下套用更新。
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
+| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP伺服器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | 客群 | 行銷活動經理、內容策略師、行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++檢視範例回應
 
-從CJA高點進但低轉換的![AI使用者端呈現行銷活動](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+從CJA高點進但低轉換的![AI使用者端呈現行銷活動](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++檢視範例回應
 
-![AI使用者端正在依裝置、區段和內容因素診斷轉換流失](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![AI使用者端正在依裝置、區段和內容因素診斷轉換流失](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++檢視範例回應
 
-![AI使用者端，顯示來自AEM之登陸頁面的目前內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+![AI使用者端，顯示來自AEM之登陸頁面的目前內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++檢視範例回應
 
-![AI使用者端識別表現不佳的內容區段並建議特定變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![AI使用者端識別表現不佳的內容區段並建議特定變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++檢視範例回應
 
-![AI使用者端建立頁面的最佳化版本並彙總變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+![AI使用者端建立頁面的最佳化版本並彙總變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 

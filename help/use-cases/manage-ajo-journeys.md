@@ -2,9 +2,9 @@
 title: 在影響客戶之前擷取歷程問題
 description: 使用CX Enterprise MCP監控作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及到您的對象之前顯示營運問題。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # 在影響客戶之前擷取歷程問題
 <!-- last-modified: 2026-06-08 -->
 
-![AI使用者端摘要行銷活動和歷程策略與執行摘要](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![AI使用者端摘要行銷活動和歷程策略與執行摘要](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*選取以縮放。*
 
 未偵測到的歷程問題可在任何人通知前聯絡客戶。 本逐步解說會說明如何透過檢查作用中的AJO歷程、檢閱行銷活動設定，以及透過AI使用者端提出營運問題、使用CX Enterprise MCP以簡單語言取得解答，而不需要開啟Adobe Journey Optimizer，而在這些方面保持領先地位。
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++檢視範例回應
 
-![AI使用者端清單列出可用的客戶歷程及其業務目標](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![AI使用者端清單列出可用的客戶歷程及其業務目標](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++檢視範例回應
 
-![AI使用者端逐步完成歡迎新客戶歷程步驟和客戶體驗](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![AI使用者端逐步完成歡迎新客戶歷程步驟和客戶體驗](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++檢視範例回應
 
-![AI使用者端列出作用中行銷活動及其對象目標定位和預期結果](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![AI使用者端列出作用中行銷活動及其對象目標定位和預期結果](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++檢視範例回應
 
-![說明行銷活動與歷程之間關係的AI使用者端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![說明行銷活動與歷程之間關係的AI使用者端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++檢視範例回應
 
-![提供優先生命週期行銷建議的AI使用者端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![提供優先生命週期行銷建議的AI使用者端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
