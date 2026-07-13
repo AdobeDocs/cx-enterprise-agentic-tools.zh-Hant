@@ -2,9 +2,9 @@
 title: 保持內容最新狀態，並加快傳送更新的速度
 description: 使用AEM Content MCP Server來尋找、檢閱、更新和發佈AEM內容，而不需在工具之間切換。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+
+*選取以縮放。*
 
 維持最新的網站內容是持續不斷的營運壓力。 本逐步解說說明內容團隊如何透過AI使用者端尋找、檢閱、更新和發佈AEM頁面和內容片段，並使用AEM Content MCP Server來縮短內容決策與即時更新之間的時間。
 
@@ -84,7 +86,9 @@ From WKND Dev environment, find all ski related content.
 
 +++檢視範例回應
 
-![AI使用者端顯示來自WKND Dev AEM環境的滑雪內容搜尋結果](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![AI使用者端顯示來自WKND Dev AEM環境的滑雪內容搜尋結果](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -99,7 +103,9 @@ Show me the US English Home Page.
 
 +++檢視範例回應
 
-![AI使用者端顯示AEM的美國英文首頁內容結構](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![AI使用者端顯示AEM的美國英文首頁內容結構](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -114,7 +120,9 @@ Improve the Hero CTAs.
 
 +++檢視範例回應
 
-![AI使用者端在套用變更前，提出改良的Hero CTA復本，並有確認提示](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![AI使用者端在套用變更前，提出改良的Hero CTA復本，並有確認提示](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -133,7 +141,9 @@ Publish the changes and share the URL.
 
 +++檢視範例回應
 
-![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![AI使用者端確認頁面已發佈並傳回即時URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 

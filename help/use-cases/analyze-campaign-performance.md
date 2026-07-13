@@ -2,9 +2,9 @@
 title: 無需建立報表即可呈現行銷活動深入分析
 description: 使用CX Enterprise MCP以簡單的語言詢問Customer Journey Analytics效能問題，並且不需要瀏覽Report Builder即可獲得解答。
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-02 -->
 
-![AI使用者端顯示改善行銷活動效能的建議後續步驟](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
+![AI使用者端顯示改善行銷活動效能的建議後續步驟](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+
+*選取以縮放。*
 
 促銷活動分析過去需要在不同的工具中建立報表，現在則變成對話。 此逐步解說會示範如何將AI使用者端連線至Customer Journey Analytics (CJA)，並以淺顯的語言詢問效能問題。 如此可加快前往insight的時間，且無需手動建立報表。
 
@@ -82,7 +84,9 @@ What data views are available in my CJA account?
 
 +++檢視範例回應
 
-![AI使用者端清單可用的CJA資料檢視](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png)
+![AI使用者端清單可用的CJA資料檢視](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -97,7 +101,9 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++檢視範例回應
 
-![AI使用者端從Omni-Channel - Multi-Industry資料檢視，依收入和轉換率顯示熱門行銷活動](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
+![AI使用者端從Omni-Channel - Multi-Industry資料檢視，依收入和轉換率顯示熱門行銷活動](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -116,7 +122,9 @@ What factors are driving the results for these campaign groups?
 
 +++檢視範例回應
 
-![AI使用者端說明驅動行銷活動群組績效的因素](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif)
+![AI使用者端說明驅動行銷活動群組績效的因素](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -131,7 +139,9 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++檢視範例回應
 
-![AI使用者端依客戶區段劃分促銷電子郵件促銷活動績效](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png)
+![AI使用者端依客戶區段劃分促銷電子郵件促銷活動績效](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
@@ -146,7 +156,9 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++檢視範例回應
 
-![AI使用者端建議具有預估商業值的優先動作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
+![AI使用者端建議具有預估商業值的優先動作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+
+*選取以縮放。*
 
 +++
 
