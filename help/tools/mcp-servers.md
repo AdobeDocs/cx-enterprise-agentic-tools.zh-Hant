@@ -2,9 +2,9 @@
 title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2408'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 | Campaign Classic | 行銷活動執行個體探索、結構描述瀏覽、查詢執行、工作流程控制和SOAP/JS執行 | 是 |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | 資料集探索、結構瀏覽和沙箱管理 | 無 |
 | 實驗 | A/B、MVT和MAB實驗報告、量度、見解、機會和樣本大小計畫 | 無 |
-| GenStudio | Advertising深入分析（支出、CTR、行銷活動、創意、標籤和自訂量度）和近期的快速草稿 | 是 |
+| GenStudio for Performance Marketing | 存取廣告績效資料和創意見解 | 是 |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | 檢閱歷程、行銷活動和管道設定 | 無 |
 | Adobe Journey Optimizer B2B edition | 管理B2B歷程、帳戶計畫、購買群組及個人化 | 無 |
 | [Adobe Target](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp) | 檢閱活動、選件、對象、mbox、效能報表和預覽URL | [是](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
