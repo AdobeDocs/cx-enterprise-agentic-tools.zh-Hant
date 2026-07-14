@@ -28,7 +28,7 @@ Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontext
 >abstract="您的 CX Enterprise 應用程式，可透過單一 MCP 端點存取。 從您的 AI 用戶端，以簡單易懂的語言詢問、分析並採取行動。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Co-worker閘道檔案"
 
-![ CX Co-worker Gateway可連線整個Adobe CX Enterprise套裝中的AI使用者端與工具](../assets/mcp-gateway-hero.gif)
+![&#x200B; CX Co-worker Gateway可連線整個Adobe CX Enterprise套裝中的AI使用者端與工具](../assets/mcp-gateway-hero.gif)
 
 選取應用程式以檢視端點和功能。
 
