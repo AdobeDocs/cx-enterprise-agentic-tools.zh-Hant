@@ -2,9 +2,9 @@
 title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
+source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2404'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontext
 
 **一個端點。 多個CX Enterprise應用程式。**
 
-連線一次，您的AI使用者端即可根據貴組織的授權存取CX Enterprise應用程式。 若要啟用您的組織，請傳送電子郵件至[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)要求存取權。
+連線一次，您的AI使用者端即可根據貴組織的授權存取CX Enterprise應用程式。 若要啟用您的組織，請傳送電子郵件至[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)要求存取權。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -62,7 +62,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->每個CX Enterprise應用程式的存取權取決於貴組織在Adobe Admin Console中的權益和使用者的許可權。 若要為您的組織啟用CX Enterprise MCP，請傳送電子郵件至[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)。
+>每個CX Enterprise應用程式的存取權取決於貴組織在Adobe Admin Console中的權益和使用者的許可權。 若要為您的組織啟用CX Enterprise MCP，請傳送電子郵件至[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)。
 
 >[!TAB Experience Manager]
 
