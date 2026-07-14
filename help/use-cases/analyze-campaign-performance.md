@@ -22,7 +22,7 @@ ht-degree: 1%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX企業應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) |
 | 代理工具 | [CX Co-worker閘道](../tools/mcp-servers.md#cx-coworker-gateway) |
 | 客群 | 分析人員、行銷活動經理 |
 | 先決條件 | MCP相容的AI使用者端、CJA存取 |
