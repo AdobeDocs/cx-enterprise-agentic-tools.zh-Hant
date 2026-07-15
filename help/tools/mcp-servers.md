@@ -1,11 +1,11 @@
 ---
 title: MCP伺服器
 description: 使用模型內容通訊協定伺服器，將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。
-last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
 workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 6%
+source-wordcount: '2422'
+ht-degree: 5%
 
 ---
 
@@ -16,32 +16,32 @@ ht-degree: 6%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491333/?captions=chi_hant&learn=on&enablevpops)
 
-Adobe CX Enterprise MCP伺服器可讓任何相容的AI使用者端直接受控存取Adobe資料和工作流程。 連線一次，您就可以查詢行銷活動績效、啟用對象、檢閱歷程、管理內容等，這一切都以淺顯的語言完成，無需離開您的AI環境。 由於MCP伺服器位於AI使用者端和Adobe的基本系統之間，因此您可以在組織的存取控制和資料控管保持有效的同時，獲得自然語言的靈活性。
+Adobe MCP伺服器可讓任何相容的AI使用者端直接受控存取Adobe資料和工作流程。 連線一次，您就可以查詢行銷活動績效、啟用對象、檢閱歷程、管理內容等，這一切都以淺顯的語言完成，無需離開您的AI環境。 由於MCP伺服器位於AI使用者端和Adobe的基本系統之間，因此您可以在組織的存取控制和資料控管保持有效的同時，獲得自然語言的靈活性。
 
 Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontextprotocol.io/docs/getting-started/intro)標準。 任何與MCP相容的AI使用者端都會連線至任何Adobe MCP伺服器。
 
-## CX Enterprise MCP 伺服器 {#cx-enterprise-mcp-servers}
+## CX Enterprise MCP伺服器 {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Enterprise MCP"
+>title="CX Co-worker閘道"
 >abstract="您的 CX Enterprise 應用程式，可透過單一 MCP 端點存取。 從您的 AI 用戶端，以簡單易懂的語言詢問、分析並採取行動。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Enterprise MCP 文件"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Co-worker閘道檔案"
 
-![CX Enterprise MCP將您的AI使用者端連線至整個Adobe CX Enterprise套裝中的工具](../assets/mcp-gateway-hero.gif)
+![&#x200B; CX Co-worker Gateway可連線整個Adobe CX Enterprise套裝中的AI使用者端與工具](../assets/mcp-gateway-hero.gif)
 
 選取應用程式以檢視端點和功能。
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise MCP]
+>[!TAB CX Co-worker閘道]
 
 **一個端點。 多個CX Enterprise應用程式。**
 
-連線一次，您的AI使用者端即可根據貴組織的授權存取CX Enterprise應用程式。 若要啟用您的組織，請傳送電子郵件至[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)要求存取權。
+連線一次，您的AI使用者端即可根據貴組織的授權存取CX Enterprise應用程式。 若要啟用您的組織，請傳送電子郵件至[cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)要求存取權。
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 | CX Enterprise應用程式 | 您可以做什麼 | 需要額外權益 |
@@ -58,11 +58,11 @@ https://cx-enterprise.adobe.io/mcp
 | [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server) | 管理方案、行銷活動、銷售機會、智慧清單、電子郵件和表單 | [是](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
 | [Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 檢查對象啟用狀態、目的地健康狀況和資料流健康狀況 | 無 |
 
-如需完整檔案，請參閱[CX Enterprise MCP](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
+如需完整檔案，請參閱[CX Co-worker閘道](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
 
 >[!NOTE]
 >
->每個CX Enterprise應用程式的存取權取決於貴組織在Adobe Admin Console中的權益和使用者的許可權。 若要為您的組織啟用CX Enterprise MCP，請傳送電子郵件至[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)。
+>存取閘道取決於貴組織現有的CX Enterprise應用程式授權以及使用者在Adobe Admin Console中的許可權。 不需要CX Co-worker授權 — 閘道後面至少有一個CX Enterprise應用程式需要使用中的授權。 若要為您的組織啟用CX Co-worker Gateway，請傳送電子郵件至[cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)。
 
 >[!TAB Experience Manager]
 
@@ -119,7 +119,7 @@ Adobe Target MCP處於公開測試版。 所有目前可用的工具都是唯讀
 
 ![連線到Adobe MCP伺服器的AI代理程式](../assets/hero-connect-mcp-servers.gif)
 
-以下步驟使用CX Enterprise MCP端點作為範例。 相同的程式適用於任何Adobe MCP伺服器：交換您要連線的伺服器端點URL。
+以下步驟使用CX Co-worker Gateway端點作為範例。 相同的程式適用於任何Adobe MCP伺服器：交換您要連線的伺服器端點URL。
 
 >[!BEGINTABS]
 
@@ -135,7 +135,7 @@ Claude.ai透過帳戶設定中的自訂聯結器支援遠端MCP伺服器。
 
 1. 移至&#x200B;**設定>整合**。
 2. 按一下&#x200B;**新增自訂聯結器**。
-3. 輸入伺服器端點作為URL （例如，CX Enterprise MCP為`https://cx-enterprise.adobe.io/mcp`）以及您選擇的顯示名稱。
+3. 輸入伺服器端點作為URL （例如，CX Co-worker Gateway為`https://cx-coworker-gateway.adobe.io/mcp`）以及您選擇的顯示名稱。
 4. 按一下「**連線**」並使用您的Adobe ID登入。 選取正確的IMS組織。
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -144,10 +144,10 @@ Claude.ai透過帳戶設定中的自訂聯結器支援遠端MCP伺服器。
 
 ### 使用CLI
 
-執行`claude mcp add`以註冊Adobe MCP伺服器。 將伺服器名稱和URL取代為您要連線的伺服器值。 此範例使用CX Enterprise MCP：
+執行`claude mcp add`以註冊Adobe MCP伺服器。 將伺服器名稱和URL取代為您要連線的伺服器值。 此範例使用CX Co-worker Gateway：
 
 ```bash
-claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.io/mcp
+claude mcp add --transport http adobe-cx-coworker-gateway https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 ### 編輯您的設定檔案
@@ -157,9 +157,9 @@ claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.
 ```json
 {
   "mcpServers": {
-    "adobe-cx-enterprise": {
+    "adobe-cx-coworker-gateway": {
       "type": "http",
-      "url": "https://cx-enterprise.adobe.io/mcp"
+      "url": "https://cx-coworker-gateway.adobe.io/mcp"
     }
   }
 }
@@ -171,7 +171,7 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
 
 >[!TAB 游標]
 
-將Adobe MCP伺服器新增至您的Cursor `mcp.json`設定檔，然後透過&#x200B;**設定> MCP**&#x200B;連線。 將索引鍵和URL取代為您要連線的伺服器值。 此範例使用CX Enterprise MCP：
+將Adobe MCP伺服器新增至您的Cursor `mcp.json`設定檔，然後透過&#x200B;**設定> MCP**&#x200B;連線。 將索引鍵和URL取代為您要連線的伺服器值。 此範例使用CX Co-worker Gateway：
 
 - **全域（所有專案）：** `~/.cursor/mcp.json`
 - **專案層級：** `.cursor/mcp.json`在您的專案根目錄中
@@ -179,9 +179,9 @@ Adobe MCP伺服器使用OAuth。 當您第一次呼叫工具時，克勞德程�
 ```json
 {
   "mcpServers": {
-    "adobe-cx-enterprise": {
+    "adobe-cx-coworker-gateway": {
       "type": "http",
-      "url": "https://cx-enterprise.adobe.io/mcp"
+      "url": "https://cx-coworker-gateway.adobe.io/mcp"
     }
   }
 }
@@ -206,7 +206,7 @@ ChatGPT透過Pro、Plus、Business、Enterprise和Education計畫提供的[開�
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用開發人員模式。
 2. 移至&#x200B;**設定>整合**。
 3. 按一下&#x200B;**新增自訂聯結器**&#x200B;並選擇&#x200B;**遠端MCP伺服器**。
-4. 輸入伺服器端點作為URL （例如，CX Enterprise MCP為`https://cx-enterprise.adobe.io/mcp`）以及您選擇的顯示名稱。
+4. 輸入伺服器端點作為URL （例如，CX Co-worker Gateway為`https://cx-coworker-gateway.adobe.io/mcp`）以及您選擇的顯示名稱。
 5. 將驗證設定為&#x200B;**OAuth**。
 6. 按一下「**連線**」並使用您的Adobe ID登入。 選取正確的IMS組織。
 
@@ -221,11 +221,11 @@ OpenAI Codex CLI透過TOML組態支援遠端MCP伺服器。
 - **使用者層級（所有專案）：** `~/.codex/config.toml`
 - 專案根目錄中的&#x200B;**專案範圍：** `.codex/config.toml`
 
-將區段名稱和URL取代為您要連線的伺服器值。 此範例使用CX Enterprise MCP：
+將區段名稱和URL取代為您要連線的伺服器值。 此範例使用CX Co-worker Gateway：
 
 ```toml
-[mcp_servers.adobe-cx-enterprise]
-url = "https://cx-enterprise.adobe.io/mcp"
+[mcp_servers.adobe-cx-coworker-gateway]
+url = "https://cx-coworker-gateway.adobe.io/mcp"
 enabled = true
 ```
 
@@ -240,9 +240,9 @@ Microsoft Copilot Studio使用MCP上線精靈連線到遠端MCP伺服器，精�
 1. 在Copilot Studio中開啟代理程式。
 2. 移至&#x200B;**工具**&#x200B;頁面。
 3. 選取&#x200B;**新增工具>新增工具>模型內容通訊協定**。
-4. 在MCP上線精靈中，輸入伺服器詳細資訊。 例如，對於CX Enterprise MCP：
-   - **伺服器名稱：** `Adobe CX Enterprise`
-   - **伺服器URL：** `https://cx-enterprise.adobe.io/mcp`
+4. 在MCP上線精靈中，輸入伺服器詳細資訊。 例如，對於CX Co-worker Gateway：
+   - **伺服器名稱：** `CX Coworker Gateway`
+   - **伺服器URL：** `https://cx-coworker-gateway.adobe.io/mcp`
 5. 將驗證設定為&#x200B;**OAuth 2.0**，並使用您的Adobe IMS授權和權杖URL進行設定。
 6. 選取&#x200B;**建立**，然後選取&#x200B;**新增至代理程式**。
 
@@ -256,7 +256,7 @@ Microsoft Copilot Studio使用MCP上線精靈連線到遠端MCP伺服器，精�
 
 ## MCP伺服器正在執行中
 
-請參閱Adobe CX Enterprise MCP伺服器，瞭解如何解決實際的業務問題。 每個逐步解說都會從真正的操作挑戰開始，並展示AI使用者端如何以簡單的語言解決它，而不需要切換工具或編寫程式碼。
+請參閱CX Co-worker Gateway解決實際業務問題。 每個逐步解說都會從真正的操作挑戰開始，並展示AI使用者端如何以簡單的語言解決它，而不需要切換工具或編寫程式碼。
 
 <!--
 CARDS
@@ -415,15 +415,15 @@ MCP連線涉及驗證、組織選擇和應用程式層級的許可權。 如果�
 
 如果您的Adobe使用者屬於多個IMS組織，而您看到錯誤的工具或資料，請中斷MCP伺服器連線，在瀏覽器中登出Adobe工作階段，然後重新連線。 登入時，系統會提示您選擇組織。
 
-Adobe CX Enterprise MCP伺服器一次只能驗證一個IMS組織，即使您的使用者帳戶可存取多個組織亦然。
+Adobe MCP伺服器一次只能驗證一個IMS組織，即使您的使用者帳戶有權存取多個組織亦然。
 
 +++
 
 +++指定沙箱、報告套裝、環境或其他工作階段資源
 
-有些Adobe CX Enterprise MCP伺服器需要您指定資源，才能傳回結果。 根據應用程式的不同，這可能是沙箱、程式、環境、報表套裝或資料檢視。
+有些Adobe MCP伺服器會要求您先指定資源，才能傳回結果。 根據應用程式的不同，這可能是沙箱、程式、環境、報表套裝或資料檢視。
 
-如果您不確定您有權存取哪些資源，請向AI使用者端詢問。 例如：「列出可用的沙箱」或「我有權存取哪些報表套裝？」 Adobe CX Enterprise MCP伺服器通常會傳回使用者可用的完整資源清單。
+如果您不確定您有權存取哪些資源，請向AI使用者端詢問。 例如：「列出可用的沙箱」或「我有權存取哪些報表套裝？」 Adobe MCP伺服器通常會傳回使用者可用的完整資源清單。
 
 設定工作階段資源後，您可以隨時通知AI使用者端要使用哪個工作階段資源，以進行切換。
 
@@ -439,8 +439,8 @@ AI使用者端使用OAuth來代表您的Adobe使用者帳戶行事。 當您登�
 
 +++在遺失工作階段後重新驗證
 
-Adobe CX Enterprise MCP伺服器會使用OAuth驗證您的Adobe使用者帳戶。 如果驗證狀態遺失，在您重新驗證之前，將不會成功進行進一步的工具呼叫。
+Adobe MCP伺服器會使用OAuth驗證您的Adobe使用者帳戶。 如果驗證狀態遺失，在您重新驗證之前，將不會成功進行進一步的工具呼叫。
 
-若要重新驗證：開啟您的AI使用者端的MCP伺服器設定，選取Adobe CX Enterprise MCP伺服器專案，然後重新連線。 系統會提示您再次使用Adobe ID登入。
+若要重新驗證：開啟您的AI使用者端的MCP伺服器設定，選取Adobe MCP伺服器專案，然後重新連線。 系統會提示您再次使用Adobe ID登入。
 
 +++

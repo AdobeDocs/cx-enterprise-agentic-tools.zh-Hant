@@ -1,8 +1,8 @@
 ---
 title: 執行跨頻道行銷活動審查
-description: 在單一AI工作階段中使用CX Enterprise MCP，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動健康情況。
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: 在單一AI工作階段中使用CX Co-worker Gateway，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動的運作狀況。
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
-| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| 代理工具 | [CX Co-worker閘道](../tools/mcp-servers.md#cx-coworker-gateway) |
 | 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
 
@@ -35,31 +35,31 @@ ht-degree: 5%
 
 >[!TAB Claude.ai]
 
-將CX Enterprise MCP連線為自訂聯結器。 一個連線可讓您存取AJO、CJA和Real-Time CDP工具。
+將CX Co-worker Gateway連線為自訂聯結器。 一個連線可讓您存取AJO、CJA和Real-Time CDP工具。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
-2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-enterprise.adobe.io/mcp`
+2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-coworker-gateway.adobe.io/mcp`
 3. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode連線CX Enterprise MCP （需要Pro、Plus、Business、Enterprise或Education計畫）。
+使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Co-worker Gateway。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
-3. 輸入伺服器URL： `https://cx-enterprise.adobe.io/mcp`
+3. 輸入伺服器URL： `https://cx-coworker-gateway.adobe.io/mcp`
 4. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線到CX Enterprise MCP：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至CX Co-worker Gateway：
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
