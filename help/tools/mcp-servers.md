@@ -4,8 +4,8 @@ description: 使用模型內容通訊協定伺服器，將任何與MCP相容的A
 last-substantial-update: 2026-07-14T00:00:00Z
 source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 5%
+source-wordcount: '2206'
+ht-degree: 6%
 
 ---
 
@@ -20,13 +20,13 @@ Adobe MCP伺服器可讓任何相容的AI使用者端直接受控存取Adobe資�
 
 Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontextprotocol.io/docs/getting-started/intro)標準。 任何與MCP相容的AI使用者端都會連線至任何Adobe MCP伺服器。
 
-## CX Enterprise MCP伺服器 {#cx-enterprise-mcp-servers}
+## CX Enterprise MCP 伺服器 {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Co-worker閘道"
+>title="CX Coworker 閘道"
 >abstract="您的 CX Enterprise 應用程式，可透過單一 MCP 端點存取。 從您的 AI 用戶端，以簡單易懂的語言詢問、分析並採取行動。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Co-worker閘道檔案"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Coworker 閘道文件"
 
 ![&#x200B; CX Co-worker Gateway可連線整個Adobe CX Enterprise套裝中的AI使用者端與工具](../assets/mcp-gateway-hero.gif)
 
@@ -308,7 +308,7 @@ CARDS
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">表面行銷活動深入分析</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -331,7 +331,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢查對象啟用</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -354,7 +354,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">監視您的歷程</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -377,7 +377,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">快送內容</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -400,7 +400,7 @@ CARDS
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">縮小效能差距</span>
-                
+                </a>
             </div>
         </div>
     </div>
