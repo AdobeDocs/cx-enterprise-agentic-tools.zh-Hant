@@ -138,7 +138,7 @@ CARDS
 
 [探索代理程式技能](tools/agent-skills.md)
 
->建置器的[!TAB API]
+>[!TAB 建置器的 API]
 
 以程式設計方式直接存取支援Adobe產品的相同API。 建立自訂的應用程式和整合，讓您的團隊能夠專注且控管特定CX Enterprise工作流程。
 
