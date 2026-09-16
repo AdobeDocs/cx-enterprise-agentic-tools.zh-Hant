@@ -19,7 +19,7 @@ ht-degree: 6%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
+| CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
 | 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md)和[AEM MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 客群 | 行銷活動經理、內容策略師、行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |

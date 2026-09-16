@@ -20,7 +20,7 @@ ht-degree: 6%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
 | 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP伺服器 |
 | 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
