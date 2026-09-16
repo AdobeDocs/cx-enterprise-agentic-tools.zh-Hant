@@ -1,25 +1,23 @@
 ---
 title: Adobe CX Enterprise Agentic Tools
-description: 使用MCP伺服器、代理程式技能和API，將AI代理程式和開發工具連線到Adobe CX Enterprise功能。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: 使用 MCP 伺服器、代理技能和 API，將 AI 代理和開發工具連接到 Adobe CX Enterprise 功能。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
-
+source-wordcount: '809'
+ht-degree: 6%
 ---
-
 
 # Adobe CX Enterprise Agentic Tools
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491257/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 讓AI成為您的Adobe CX Enterprise共同作業人員。 將您的AI使用者端連線至行銷活動、對象、歷程和內容。 使用您已經使用的任何工具，以簡單的語言與他們互動。 沒有新介面、沒有內容切換、不需要編碼即可開始。
 
 >[!TIP]
->**開始使用CX Co-worker Gateway。** 一個連線可讓您的AI使用者端根據您組織的授權存取Adobe Journey Optimizer、Customer Journey Analytics和Real-Time CDP。 [立即連線](tools/mcp-servers.md#cx-coworker-gateway)
+>**開始使用CX Enterprise Coworker。** 它可連線至您的CX Enterprise應用程式，不需要伺服器設定或AI使用者端設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
 
 <!--
 CARDS
@@ -48,8 +46,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/mcp-servers.md" title="MCP伺服器">
-                        <img class="is-bordered-r-small" src="assets/mcp-servers-card.png" alt="MCP伺服器"
+                    <a href="tools/mcp-servers.md" title="MCP 伺服器">
+                        <img class="is-bordered-r-small" src="assets/mcp-servers-card.png" alt="MCP 伺服器"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -57,13 +55,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/mcp-servers.md" title="MCP伺服器">MCP伺服器</a>
+                        <a href="tools/mcp-servers.md" title="MCP 伺服器">MCP伺服器</a>
                     </p>
                     <p class="is-size-6">將任何與MCP相容的AI使用者端連線至Adobe CX Enterprise工作流程。 在不離開AI工具的情況下查詢資料、分析行銷活動以及存取對象。</p>
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索MCP伺服器</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -86,7 +84,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理程式技能</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -109,7 +107,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索建置器的API</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -122,7 +120,7 @@ CARDS
 
 >[!TAB MCP伺服器]
 
-使用任何相容的AI使用者端，以簡單語言存取CX Enterprise應用程式。 不需要編碼。 從CX Co-worker Gateway開始，單一連線至AJO、CJA和Real-Time CDP，或直接連線至AEM和其他應用程式。
+使用任何相容的AI使用者端，以簡單語言存取CX Enterprise應用程式。 不需要編碼。 從CX Enterprise Coworker開始，為跨應用程式提供最快的路徑，或直接使用自己的MCP伺服器連線到AJO、CJA、AEM和其他應用程式。
 
 - 在幾分鐘內從Claude、Cursor、ChatGPT和其他與MCP相容的使用者端連線
 - 使用自然語言查詢行銷活動、對象和歷程資料
@@ -140,7 +138,7 @@ CARDS
 
 [探索代理程式技能](tools/agent-skills.md)
 
->[!TAB 建置器的 API]
+>建置器的[!TAB API]
 
 以程式設計方式直接存取支援Adobe產品的相同API。 建立自訂的應用程式和整合，讓您的團隊能夠專注且控管特定CX Enterprise工作流程。
 
@@ -191,7 +189,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">表面行銷活動深入分析</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -214,7 +212,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">快送內容</span>
-                
+                </a>
             </div>
         </div>
     </div>

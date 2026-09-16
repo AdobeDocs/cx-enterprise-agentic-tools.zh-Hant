@@ -1,14 +1,12 @@
 ---
 title: 在影響客戶之前擷取歷程問題
-description: 使用CX Co-worker Gateway監視作用中的AJO歷程、檢閱行銷活動設定，並在問題觸及到您的對象之前顯示營運問題。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: 使用Adobe Journey Optimizer MCP伺服器監控作用中的AJO歷程、檢閱行銷活動設定，以及在問題觸及您的對象之前顯示營運問題。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 2%
-
+source-wordcount: '1071'
+ht-degree: 4%
 ---
-
 
 # 在影響客戶之前擷取歷程問題
 <!-- last-modified: 2026-06-08 -->
@@ -17,12 +15,12 @@ ht-degree: 2%
 
 *選取以縮放。*
 
-未偵測到的歷程問題可在任何人通知前聯絡客戶。 本逐步解說會說明如何透過檢查作用中的AJO歷程、檢閱行銷活動設定，以及透過AI使用者端提出營運問題、使用CX Co-worker Gateway以簡單語言取得解答，而不需要開啟Adobe Journey Optimizer，而在這些方面保持領先地位。
+未偵測到的歷程問題可在任何人通知前聯絡客戶。 本逐步解說會說明如何透過檢查作用中的AJO歷程、檢閱行銷活動設定，以及透過AI使用者端提出營運問題、使用Adobe Journey Optimizer MCP伺服器以簡單語言取得解答，而不需要開啟Adobe Journey Optimizer，保持領先地位。
 
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home) |
-| 代理工具 | [CX Co-worker閘道](../tools/mcp-servers.md#cx-coworker-gateway) |
+| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Adobe Journey Optimizer MCP伺服器](../tools/mcp-servers.md) |
 | 客群 | 行銷活動管理員、行銷人員 |
 | 先決條件 | MCP相容的AI使用者端、AJO存取 |
 
@@ -33,33 +31,39 @@ ht-degree: 2%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+取得這些答案的最快方式是CX Enterprise Coworker，它不需要伺服器設定或AI使用者端設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+
+如果您想將自己的AI使用者端直接連線到Adobe Journey Optimizer，請參閱以下標籤。
+
 >[!TAB Claude.ai]
 
-將CX Co-worker Gateway連線為自訂聯結器，以存取Adobe Journey Optimizer工具。
+以自訂聯結器連線Adobe Journey Optimizer MCP伺服器。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
-2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-coworker-gateway.adobe.io/mcp`
+2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://ajo-mcp.adobe.io/mcp`
 3. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Co-worker Gateway。
+使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線Adobe Journey Optimizer MCP伺服器。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
-3. 輸入伺服器URL： `https://cx-coworker-gateway.adobe.io/mcp`
+3. 輸入伺服器URL： `https://ajo-mcp.adobe.io/mcp`
 4. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至CX Co-worker Gateway：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至Adobe Journey Optimizer MCP伺服器：
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://ajo-mcp.adobe.io/mcp
 ```
 
 所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
@@ -180,7 +184,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 ## 您可以完成更多工作
 
-CX Co-worker Gateway可以呈現各種AJO歷程與行銷活動的詳細資訊。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
+Adobe Journey Optimizer MCP伺服器可顯示各種AJO歷程和行銷活動的詳細資訊。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
 
 +++在進行變更之前，請先瞭解哪些專案已上線
 

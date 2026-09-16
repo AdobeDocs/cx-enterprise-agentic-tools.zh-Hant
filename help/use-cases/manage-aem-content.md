@@ -1,14 +1,12 @@
 ---
 title: 保持內容最新狀態，並加快傳送更新的速度
-description: 使用AEM Content MCP Server來尋找、檢閱、更新和發佈AEM內容，而不需在工具之間切換。
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: 使用AEM MCP伺服器來尋找、檢閱、更新和發佈AEM內容，而不需在工具之間切換。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 3%
-
+source-wordcount: '1019'
+ht-degree: 8%
 ---
-
 
 # 保持內容最新狀態，並加快傳送更新的速度
 
@@ -18,12 +16,12 @@ ht-degree: 3%
 
 *選取以縮放。*
 
-維持最新的網站內容是持續不斷的營運壓力。 本逐步解說說明內容團隊如何透過AI使用者端尋找、檢閱、更新和發佈AEM頁面和內容片段，並使用AEM Content MCP Server來縮短內容決策與即時更新之間的時間。
+維持最新的網站內容是持續不斷的營運壓力。 本逐步解說說明內容團隊如何透過AI使用者端尋找、檢閱、更新和發佈AEM頁面和內容片段，使用AEM MCP伺服器來縮短內容決策與即時更新之間的時間。
 
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [AEM Content MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[AEM MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 客群 | 內容管理員、行銷團隊 |
 | 先決條件 | MCP相容的AI使用者端、AEM as a Cloud Service存取 |
 
@@ -33,33 +31,39 @@ ht-degree: 3%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+最快的方法就是CX Enterprise Coworker，它不需要伺服器設定或AI使用者端設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+
+如果您想將自己的AI使用者端直接連線到AEM，請參閱以下標籤。
+
 >[!TAB Claude.ai]
 
-以自訂聯結器連線AEM Content MCP Server。
+以自訂聯結器連線AEM MCP伺服器。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
-2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://mcp.adobeaemcloud.com/adobe/mcp/content`
+2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 3. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-使用ChatGPT開發人員模式（需要Pro、Plus、Business、Enterprise或Education計畫）連線AEM Content MCP Server。
+使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線AEM MCP伺服器。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
-3. 輸入伺服器URL： `https://mcp.adobeaemcloud.com/adobe/mcp/content`
+3. 輸入伺服器URL： `https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 4. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至AEM Content MCP伺服器：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至AEM MCP伺服器：
 
 ```
-https://mcp.adobeaemcloud.com/adobe/mcp/content
+https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
 所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
@@ -69,8 +73,6 @@ https://mcp.adobeaemcloud.com/adobe/mcp/content
 >[!NOTE]
 >
 >出現提示時，請使用您的Adobe ID登入，並選取連結至您的AEM as a Cloud Service環境的IMS組織。 許可權會在AEM層級強制執行。 您的AI使用者端只能執行您的帳戶所授權的操作。
->
->如果您只需要瀏覽或稽核內容而不需進行變更，請改用唯讀伺服器端點： `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly`。 此頁面上的所有探索和檢閱提示都適用於這兩個伺服器。
 >
 >在首次連線時，您的AI使用者端可能會要求您確認您的組織或AEM環境。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
@@ -129,7 +131,7 @@ Improve the Hero CTAs.
 
 >[!CAUTION]
 >
->出現提示時確認每個變更。 AEM Content MCP Server可以建立、更新和刪除內容。 核准前，請先檢閱提議的變更，尤其是在即時頁面上。
+>出現提示時確認每個變更。 AEM MCP伺服器可以建立、更新和刪除內容。 核准前，請先檢閱提議的變更，尤其是在即時頁面上。
 
 ## 步驟4：發佈和共用
 
@@ -150,11 +152,11 @@ Publish the changes and share the URL.
 
 ## 您完成的內容
 
-您在不開啟AEM介面的情況下，使用AEM Content MCP Server來尋找內容、檢閱即時頁面、套用AI建議的改進以及發佈結果。 透過在單一AI工作階段中結合內容探索、編輯和發佈，內容團隊可以從識別間隙轉移到以更快的速度和更少的內容切換送出更新。 相同的工作流程可縮放至多個頁面、內容片段，以及協調的行銷活動啟動。
+您在不開啟AEM介面的情況下，使用AEM MCP伺服器來尋找內容、檢閱即時頁面、套用AI建議的改進以及發佈結果。 透過在單一AI工作階段中結合內容探索、編輯和發佈，內容團隊可以從識別間隙轉移到以更快的速度和更少的內容切換送出更新。 相同的工作流程可縮放至多個頁面、內容片段，以及協調的行銷活動啟動。
 
 ## 您可以完成更多工作
 
-AEM Content MCP Server處理的內容遠不止逐步解說。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
+AEM MCP伺服器的處理方式遠不止逐步解說。 展開下列案例以檢視可在相同工作階段中嘗試的提示。
 
 +++搶先進行網站檢閱或重新啟動
 
@@ -273,5 +275,5 @@ Promote the May Updates launch to production.
 
 | 資源 | 您會找到的內容 |
 | --- | --- |
-| [AI登入中的AEM Content MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | 工具清單和可用性 |
+| [AEM MCP伺服器檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | 工具清單和可用性 |
 | [AEM as a Cloud Service 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service){target="_blank"} | 完整的AEM應用程式檔案 |

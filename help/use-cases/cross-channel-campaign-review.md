@@ -1,14 +1,12 @@
 ---
 title: 執行跨頻道行銷活動審查
-description: 在單一AI工作階段中使用CX Co-worker Gateway，即可跨歷程、對象和效能統一檢視AJO、CJA和Real-Time CDP行銷活動的運作狀況。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: 在單一AI工作階段中，跨歷程、對象和效能，統一檢視AJO、CJA和Real-Time CDP行銷活動的健康情況。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 5%
-
+source-wordcount: '1564'
+ht-degree: 6%
 ---
-
 
 # 執行跨頻道行銷活動審查
 
@@ -18,12 +16,12 @@ ht-degree: 5%
 
 *選取以縮放。*
 
-全面掌握行銷活動健康情況需要來自多個系統的資料：來自AJO的活動歷程、來自Real-Time CDP的受眾啟用狀態，以及來自CJA的績效量度。 此逐步解說會說明如何在單一AI工作階段中連線所有三個，讓您能夠在一個交談中（而不是三個單獨的工具）從歷程狀態到受眾健康狀態再到效能趨勢。
+全面掌握行銷活動健康情況需要來自多個系統的資料：來自AJO的活動歷程、來自Real-Time CDP的受眾啟用狀態，以及來自CJA的績效量度。 此逐步解說會說明如何將這三個功能整合為單一AI工作階段，讓您能夠在一個交談中（而非三個個別的工具）從歷程狀態移至受眾健康狀況和效能趨勢。
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
-| 代理工具 | [CX Co-worker閘道](../tools/mcp-servers.md#cx-coworker-gateway) |
+| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP伺服器 |
 | 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
 
@@ -33,34 +31,54 @@ ht-degree: 5%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworker可在一個位置連線至AJO、CJA和Real-Time CDP，不需要進行伺服器設定或AI使用者端設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+
+如果您想要直接連線您自己的AI使用者端，請使用下列標籤來連線所有三個MCP伺服器。 Real-Time CDP MCP伺服器處於公開測試版，需要貴組織加入允許清單。
+
 >[!TAB Claude.ai]
 
-將CX Co-worker Gateway連線為自訂聯結器。 一個連線可讓您存取AJO、CJA和Real-Time CDP工具。
+以自訂聯結器連線所有三個MCP伺服器。 分別新增各個。
 
 1. 移至Claude.ai中的&#x200B;**設定>整合**。
-2. 選取&#x200B;**新增自訂聯結器**&#x200B;並輸入伺服器URL： `https://cx-coworker-gateway.adobe.io/mcp`
-3. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
+2. 選取&#x200B;**新增自訂聯結器**，輸入伺服器URL，然後選取&#x200B;**連線**。
+3. 使用您的Adobe ID登入，然後對其餘伺服器重複此程式。
+
+| 伺服器 | 端點 |
+| --- | --- |
+| Adobe Journey Optimizer MCP伺服器 | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP伺服器 | `https://rtcdp-mcp.adobe.io/mcp` |
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro、Plus、Business、Enterprise或Education計畫）連線CX Co-worker Gateway。
+使用ChatGPT Developer Mode連線所有三部MCP伺服器（需要Pro、Plus、Business、Enterprise或Education計畫）。 分別新增每個伺服器。
 
 1. 在&#x200B;**ChatGPT設定**&#x200B;中啟用&#x200B;**開發人員模式**。
 2. 移至&#x200B;**設定>整合**&#x200B;並選取&#x200B;**新增自訂聯結器>遠端MCP伺服器**。
-3. 輸入伺服器URL： `https://cx-coworker-gateway.adobe.io/mcp`
-4. 選取&#x200B;**連線**&#x200B;並使用您的Adobe ID登入。
+3. 輸入伺服器URL，選取&#x200B;**連線**，然後使用您的Adobe ID登入。
+4. 對其餘的伺服器重複此動作。
+
+| 伺服器 | 端點 |
+| --- | --- |
+| Adobe Journey Optimizer MCP伺服器 | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP伺服器 | `https://rtcdp-mcp.adobe.io/mcp` |
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB 其他AI使用者端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至CX Co-worker Gateway：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用以下端點連線到所有三部MCP伺服器：
 
-```
-https://cx-coworker-gateway.adobe.io/mcp
-```
+| 伺服器 | 端點 |
+| --- | --- |
+| Adobe Journey Optimizer MCP伺服器 | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP伺服器 | `https://rtcdp-mcp.adobe.io/mcp` |
 
 所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
 
@@ -119,7 +137,7 @@ Show me the activation status for the high-value loyalty segment.
 | Google Ads | 作用中 | 2026年5月21日凌晨02:14 | 48,320 |
 | Meta Ads | 作用中 | 2026年5月21日上午01:58 | 48,295 |
 | Salesforce Marketing Cloud | 作用中 | 2026年5月20日晚上11:30 | 47,940 |
-| Adobe Target | 作用中 | 2026年5月21日上午12:00 | 48,320 |
+| Adobe Target | 作用中 | 2026年5月21日半夜12:00 | 48,320 |
 
 未偵測到任何資料流錯誤。 所有啟用在過去3小時內完成。
 
