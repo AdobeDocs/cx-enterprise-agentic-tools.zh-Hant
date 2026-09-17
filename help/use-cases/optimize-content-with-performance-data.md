@@ -1,14 +1,12 @@
 ---
 title: 透過資料導向更新縮小內容效能差距
 description: 在一個AI工作階段中搭配使用CJA和AEM，在不切換工具的情況下尋找具有轉換差距的行銷活動、診斷原因並更新內容。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 2%
-
+source-wordcount: '1146'
+ht-degree: 6%
 ---
-
 
 # 透過資料導向更新縮小內容效能差距
 <!-- last-modified: 2026-06-10 -->
@@ -22,7 +20,7 @@ ht-degree: 2%
 | 案例詳細資料 | |
 | --- | --- |
 | CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [CX Co-worker閘道](../tools/mcp-servers.md#cx-coworker-gateway)，[AEM Content MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md)和[AEM MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 客群 | 行銷活動經理、內容策略師、行銷作業 |
 | 先決條件 | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |
 
@@ -32,6 +30,12 @@ ht-degree: 2%
 ## 開始之前
 
 >[!BEGINTABS]
+
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworker涵蓋整個逐步解說，無需伺服器設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+
+如果您想要直接連線您自己的AI使用者端，請使用下列標籤來連線兩個MCP伺服器。
 
 >[!TAB Claude.ai]
 
@@ -43,8 +47,8 @@ ht-degree: 2%
 
 | 伺服器 | 端點 |
 | --- | --- |
-| CX Co-worker閘道 | `https://cx-coworker-gateway.adobe.io/mcp` |
-| AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
+| AEM MCP伺服器 | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 完整設定： [Claude.ai自訂聯結器檔案](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
@@ -59,8 +63,8 @@ ht-degree: 2%
 
 | 伺服器 | 端點 |
 | --- | --- |
-| CX Co-worker閘道 | `https://cx-coworker-gateway.adobe.io/mcp` |
-| AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
+| AEM MCP伺服器 | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
@@ -70,8 +74,8 @@ ht-degree: 2%
 
 | 伺服器 | 端點 |
 | --- | --- |
-| CX Co-worker閘道 | `https://cx-coworker-gateway.adobe.io/mcp` |
-| AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
+| AEM MCP伺服器 | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
 
@@ -177,7 +181,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 >[!CAUTION]
 >
->在確認之前，請先檢閱建議變更的完整摘要。 AEM Content MCP Server會將變更寫入您的AEM環境。 頁面會維持其發佈狀態，直到您明確重新發佈為止。
+>在確認之前，請先檢閱建議變更的完整摘要。 AEM MCP伺服器會將變更寫入您的AEM環境。 頁面會維持其發佈狀態，直到您明確重新發佈為止。
 
 
 ## 您完成的內容
@@ -268,4 +272,4 @@ Publish all confirmed changes and share the updated URLs.
 | 資源 | 您會找到的內容 |
 | --- | --- |
 | AI登入中的[CJA MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP伺服器工具與可用性 |
-| [AI登入中的AEM Content MCP伺服器](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | AEM Content MCP Server工具與可用性 |
+| [AEM MCP伺服器檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | AEM MCP伺服器工具與可用性 |

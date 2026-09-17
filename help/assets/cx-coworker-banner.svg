@@ -1,0 +1,39 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Adobe CX Coworker">
+  <defs>
+    <linearGradient id="bandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF1F0F"/>
+      <stop offset="55%" stop-color="#EB1000"/>
+      <stop offset="100%" stop-color="#B60000"/>
+    </linearGradient>
+    <pattern id="dotGrid" x="0" y="0" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="3" fill="#FFFFFF" opacity="0.14"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="400" rx="16" fill="url(#bandGradient)"/>
+  <rect width="1600" height="400" rx="16" fill="url(#dotGrid)"/>
+  <rect x="0.5" y="0.5" width="1599" height="399" rx="16" fill="none" stroke="#8A0000" stroke-width="1"/>
+
+  <!-- mark: two overlapping rounded forms, standing for person + coworker -->
+  <g transform="translate(230,200)">
+    <rect x="-150" y="-115" width="200" height="230" rx="100" fill="#FFFFFF" opacity="0.20"/>
+    <rect x="-40" y="-130" width="210" height="260" rx="105" fill="#FFFFFF"/>
+    <circle cx="65" cy="-45" r="34" fill="#EB1000"/>
+    <path d="M 0 90 C 0 30 30 -5 65 -5 C 100 -5 130 30 130 90 Z" fill="#EB1000"/>
+  </g>
+
+  <!-- trailing connection nodes: the mark reaches into the connected apps -->
+  <g stroke="#FFFFFF" stroke-width="2" opacity="0.85">
+    <line x1="470" y1="200" x2="1360" y2="200"/>
+    <line x1="1360" y1="200" x2="1460" y2="120"/>
+    <line x1="1360" y1="200" x2="1460" y2="200"/>
+    <line x1="1360" y1="200" x2="1460" y2="280"/>
+  </g>
+  <circle cx="470" cy="200" r="7" fill="#FFFFFF"/>
+  <circle cx="1360" cy="200" r="9" fill="#FFFFFF"/>
+  <g fill="#FFFFFF">
+    <circle cx="1460" cy="120" r="12"/>
+    <circle cx="1460" cy="200" r="12"/>
+    <circle cx="1460" cy="280" r="12"/>
+  </g>
+</svg>
