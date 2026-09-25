@@ -5,7 +5,7 @@ last-substantial-update: 2026-09-16
 source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 6%
+ht-degree: 8%
 ---
 
 # MCP 伺服器
@@ -21,8 +21,8 @@ Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontext
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="CX Enterprise Coworker"
->abstract="以簡單的語言詢問、分析您的CX Enterprise應用程式並採取行動，不需要伺服器設定。 對於具有自己MCP伺服器的個別應用程式，請直接連線。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home" text="CX Enterprise Coworker檔案"
+>abstract="使用簡單明瞭的語言，在您的 CX Enterprise 應用程式中提問、分析並採取行動，無需伺服器設定。 對於自有 MCP 伺服器的個別應用程式，請直接連接。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home" text="CX Enterprise Coworker 文件"
 
 ![將AI使用者端連線至CX Enterprise應用程式的CX Enterprise Coworker](../assets/mcp-sub-hero.gif)
 
