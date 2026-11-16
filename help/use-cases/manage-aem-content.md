@@ -39,7 +39,7 @@ ht-degree: 7%
 
 >[!TAB AI平台的同事]
 
-您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 

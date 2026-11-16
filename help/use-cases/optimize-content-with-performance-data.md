@@ -19,7 +19,7 @@ ht-degree: 5%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX Enterprise應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
+| CX Enterprise應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
 | 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)、[適用於AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)，或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md)和[AEM MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 客群 | 行銷活動經理、內容策略師、行銷作業 |
 | 先決條件 | CJA存取、AEM as a Cloud Service存取，加上Co-worker、具有Co-worker for AI平台的AI平台，或MCP相容的AI平台 |
@@ -39,7 +39,7 @@ Co-worker涵蓋整個逐步解說，不需要伺服器設定。 [嘗試同事](h
 
 >[!TAB AI平台的同事]
 
-您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 

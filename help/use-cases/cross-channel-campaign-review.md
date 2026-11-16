@@ -20,7 +20,7 @@ ht-degree: 6%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX Enterprise應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| CX Enterprise應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
 | 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)、[適用於AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)，或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP伺服器 |
 | 客群 | 行銷活動經理，行銷作業 |
 | 先決條件 | 存取AJO、CJA和Real-Time CDP，以及Co-worker、具有Co-worker for AI平台的AI平台或MCP相容的AI平台 |
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 >[!TAB AI平台的同事]
 
-您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 

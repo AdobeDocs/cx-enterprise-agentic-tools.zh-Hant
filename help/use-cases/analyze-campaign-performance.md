@@ -20,7 +20,7 @@ ht-degree: 3%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX Enterprise應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX Enterprise應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) |
 | 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)、[適用於AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md) |
 | 客群 | 分析人員、行銷活動經理 |
 | 先決條件 | CJA存取，加上Co-worker、具有Co-worker for AI平台的AI平台，或是MCP相容的AI平台 |
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!TAB AI平台的同事]
 
-您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
