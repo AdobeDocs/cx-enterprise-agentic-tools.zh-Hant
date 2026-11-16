@@ -79,7 +79,7 @@
         font-size="24" font-weight="700">MCP Servers</text>
   <text x="340" y="502" text-anchor="middle" fill="#7A9FBF"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="15">Any compatible AI client</text>
+        font-size="15">Any compatible AI platform</text>
 
   <circle cx="162" cy="543" r="3" fill="#EB1000" fill-opacity="0.75"/>
   <text x="175" y="548" fill="#B8CCE0"
@@ -92,7 +92,7 @@
   <circle cx="162" cy="621" r="3" fill="#EB1000" fill-opacity="0.75"/>
   <text x="175" y="626" fill="#B8CCE0"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="15">Works across AI clients</text>
+        font-size="15">Works across AI platforms</text>
 
   <text x="340" y="738" text-anchor="middle" fill="#EB1000" fill-opacity="0.6"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"

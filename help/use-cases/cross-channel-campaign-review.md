@@ -1,10 +1,10 @@
 ---
 title: 執行跨頻道行銷活動審查
 description: 在單一AI工作階段中，跨歷程、對象和效能，統一檢視AJO、CJA和Real-Time CDP行銷活動的健康情況。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1651'
 ht-degree: 6%
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 6%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP伺服器 |
+| CX Enterprise應用程式 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)、[適用於AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)，或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP伺服器 |
 | 客群 | 行銷活動經理，行銷作業 |
-| 先決條件 | MCP相容的AI使用者端、AJO、CJA和Real-Time CDP的存取權 |
+| 先決條件 | 存取AJO、CJA和Real-Time CDP，以及Co-worker、具有Co-worker for AI平台的AI平台或MCP相容的AI平台 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -31,11 +31,15 @@ ht-degree: 6%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker可在一個位置連線至AJO、CJA和Real-Time CDP，不需要進行伺服器設定或AI使用者端設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+同事可在一個位置連線至AJO、CJA和Real-Time CDP，不需要伺服器設定或AI平台設定。 [嘗試同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
 
-如果您想要直接連線您自己的AI使用者端，請使用下列標籤來連線所有三個MCP伺服器。 Real-Time CDP MCP伺服器處於公開測試版，需要貴組織加入允許清單。
+如果您無法或不想要直接使用同事，請改從您自己的AI平台使用。 請參閱「**AI平台的同事**」標籤。 如果上述方法也不適合您，請使用其餘的索引標籤，將您的AI平台直接連線至AJO、CJA和Real-Time CDP MCP伺服器。 Real-Time CDP MCP伺服器處於公開測試版，需要貴組織加入允許清單。
+
+>[!TAB AI平台的同事]
+
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -70,7 +74,7 @@ CX Enterprise Coworker可在一個位置連線至AJO、CJA和Real-Time CDP，不
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI使用者端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用以下端點連線到所有三部MCP伺服器：
 
@@ -80,7 +84,7 @@ CX Enterprise Coworker可在一個位置連線至AJO、CJA和Real-Time CDP，不
 | Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP伺服器 | `https://rtcdp-mcp.adobe.io/mcp` |
 
-所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
+所有支援AI平台的完整設定指示： [連線至您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ CX Enterprise Coworker可在一個位置連線至AJO、CJA和Real-Time CDP，不
 >
 >出現提示時，請使用您的Adobe ID登入，然後選取連結至您的AJO、CJA和Real-Time CDP環境的IMS組織。 選擇錯誤的組織是驗證錯誤最常見的來源。
 >
->在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
+>在首次連線時，您的AI平台可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
 >有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
@@ -157,7 +161,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 **忠誠度重新參與行銷活動**： 2026年4月21日至5月21日：
 
-| 頻道 | 傳送 | CTR | 轉換 | 同意 比率 |
+| 管道 | 傳送 | CTR | 轉換 | 同意 比率 |
 | --- | --- | --- | --- | --- |
 | 電子郵件 | 48,320 | 8.4% | 1,973 | 4.1% |
 | 推播 | 31,200 | 12.1% | 987 | 3.2% |
@@ -169,7 +173,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 ## 步驟4：綜合行銷活動健康情況摘要
 
-請您的AI使用者端將這三個來源的圖片彙整在一起，並呈現任何需要注意的東西。
+要求您的AI平台跨越所有三個來源呈現圖片，並呈現任何需要注意的東西。
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -195,11 +199,11 @@ Give me a summary of our campaign health: what is running, which audiences are a
 +++
 
 
-多伺服器方法從中取得成效：在單一交談中，跨越歷程設定、對象狀態和效能資料的AI使用者端原因。
+多伺服器方法從中大獲裨益：您的AI平台可在單一交談中因應歷程設定、對象狀態和效能資料等原因。
 
 ## 步驟5：對找到的專案採取動作
 
-稽核顯示兩個專案。 請要求您的AI使用者端協助您排定每個專案的優先順序並進行路由。
+稽核顯示兩個專案。 請諮詢您的AI平台，協助您排定每個專案的優先順序並進行路由。
 
 ```
 For each flag you identified, what should I do and where should I go to do it?

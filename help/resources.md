@@ -1,14 +1,12 @@
 ---
 title: 資源
-description: 所有Adobe CX Enterprise Agentic Tools檔案、註冊處、API和開發人員指南的單一入口點。
-last-substantial-update: 2026-05-08T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+description: 所有Adobe CX Enterprise代理程式工具檔案、註冊處、API和開發人員指南的單一進入點。
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 20%
-
+source-wordcount: '591'
+ht-degree: 19%
 ---
-
 
 # 資源
 
@@ -16,7 +14,7 @@ ht-degree: 20%
 
 ![資源](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
 
-在一個地方使用Adobe CX Enterprise Agentic Tools的所有重要Adobe資源。
+在一個地方使用Adobe Agentic Tools的所有重要Adobe CX Enterprise資源。
 
 ## 登入與目錄
 
@@ -26,10 +24,11 @@ ht-degree: 20%
 | [Adobe AI登入：代理程式技能](https://developer.adobe.com/ai-registry/?type=skill) | 代理程式技能清單，以及所選技能的可用性和設定詳細資訊 |
 | [Adobe API目錄](https://developer.adobe.com/apis) | 完整Adobe CX Enterprise API參考 |
 
-## MCP伺服器
+## MCP 伺服器
 
 | 資源 | 您會找到的內容 |
 |---|---|
+| 適用於AI平台的[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker) | 使用Claude、ChatGPT、Microsoft 365 Copilot、Gemini Enterprise和其他AI平台的同事的先決條件和設定 |
 | [Analytics MCP檔案](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP伺服器設定指南和工具參考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP伺服器的詳細使用指南 |
 | [Real-Time CDP MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP伺服器安裝指南 |
@@ -62,7 +61,7 @@ ht-degree: 20%
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API專案設定、驗證和認證管理 |
 | [開發人員快速入門手冊](https://developer.adobe.com/dep/) | 使用Adobe API建立簡介 |
 
-## AI使用者端設定
+## AI平台設定
 
 | 資源 | 您會找到的內容 |
 |---|---|

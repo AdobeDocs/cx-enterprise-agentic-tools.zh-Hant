@@ -1,14 +1,12 @@
 ---
 title: 執行中的代理工具
-description: 逐步解說，顯示套用至實際業務工作流程的Adobe CX Enterprise Agentic Tools。
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: 逐步解說會顯示Adobe CX Enterprise Agentic Tools套用至實際業務工作流程。
+last-substantial-update: 2026-06-08
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 
 # 執行中的代理工具
 
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 ![執行中的代理工具](../assets/hero-agentic-tools-in-action.png)
 
-實際Adobe CX Enterprise工作流程的逐步逐步解說。 每次逐步解說都會從設定結束的地方開始，並連線工具及完成真正的工作流程。
+真實Adobe CX Enterprise工作流程的逐步逐步解說。 每次逐步解說都會從設定結束的地方開始，並連線工具及完成真正的工作流程。
 
 <!--
 CARDS
@@ -48,7 +46,7 @@ CARDS
 
 * aem-cloud-manager-mcp.md
   {title = Deploy AEM changes with confidence}
-  {description = Check environment health, review pipeline history, and deploy to AEM from your AI client, without switching tools.}
+  {description = Check environment health, review pipeline history, and deploy to AEM from your AI platform, without switching tools.}
   {cta = Deploy with confidence}
   {image = ../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png}
 -->
@@ -73,7 +71,7 @@ CARDS
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">表面行銷活動深入分析</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -96,7 +94,7 @@ CARDS
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">檢查對象啟用</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -119,7 +117,7 @@ CARDS
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">監視您的歷程</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -142,7 +140,7 @@ CARDS
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">快送內容</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -165,7 +163,7 @@ CARDS
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">縮小效能差距</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -184,11 +182,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="aem-cloud-manager-mcp.md" title="自信地部署AEM變更">部署AEM變更並保有信賴度</a>
                     </p>
-                    <p class="is-size-6">檢查環境健康情況、檢閱管道歷史記錄，以及從您的AI使用者端部署到AEM，無需切換工具。</p>
+                    <p class="is-size-6">檢查環境健康情況、檢閱管道歷史記錄，以及從您的AI平台部署到AEM，無需切換工具。</p>
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">部署時充滿信心</span>
-                
+                </a>
             </div>
         </div>
     </div>

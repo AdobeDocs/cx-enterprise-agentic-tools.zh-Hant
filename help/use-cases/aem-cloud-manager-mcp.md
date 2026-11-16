@@ -1,14 +1,12 @@
 ---
 title: 放心地部署至AEM as a Cloud Service
-description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI使用者端。
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: 檢查環境健康情況、檢閱管道歷史記錄，以及觸發或管理部署而不離開您的AI平台。
+last-substantial-update: 2026-06-10
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '951'
 ht-degree: 3%
-
 ---
-
 
 # 放心地部署至AEM as a Cloud Service
 
@@ -16,14 +14,14 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480353/?captions=chi_hant&learn=on&enablevpops)
 
-部署信賴源自於您在推送前知道環境狀況良好。 本逐步解說會說明如何使用AEM Cloud Manager MCP伺服器檢查AEM環境狀態、檢閱管道歷史記錄及從AI使用者端觸發部署，讓團隊可以快速移動而不會失去可見度。
+部署信賴源自於您在推送前知道環境狀況良好。 此逐步解說會說明如何使用AEM Cloud Manager MCP伺服器檢查AEM環境狀態、檢閱管道歷史記錄，以及從AI平台觸發部署，讓團隊可以快速移動而不會失去可見度。
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| 代理工具 | [AEM Cloud Manager MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| CX Enterprise應用程式 | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| 代理式工具 | [AEM Cloud Manager MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
 | 客群 | 開發人員、DevOps、營運團隊 |
-| 先決條件 | MCP相容的AI使用者端、AEM Cloud Manager存取 |
+| 先決條件 | MCP相容的AI平台、AEM Cloud Manager存取 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 接著有&#x200B;**更多提示嘗試**&#x200B;區段，以供您在同一工作階段中進行其他探索。
 
@@ -96,7 +94,7 @@ claude mcp add --transport http adobe-cloud-manager https://mcp.adobeaemcloud.co
 
 完整設定： [VS程式碼MCP伺服器檔案](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
->[!TAB 其他AI使用者端]
+>[!TAB 其他AI平台]
 
 使用其他MCP相容的環境？ 使用此端點連線至Cloud Manager MCP伺服器：
 
@@ -104,15 +102,15 @@ claude mcp add --transport http adobe-cloud-manager https://mcp.adobeaemcloud.co
 https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
+所有支援AI平台的完整設定指示： [連線至您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->出現提示時，請使用您的Adobe ID登入，並選取連結至您的AEM as a Cloud Service程式的IMS組織。 許可權會在Cloud Manager層級強制執行。 您的AI使用者端只能執行您的帳戶所授權的操作。
+>出現提示時，請使用您的Adobe ID登入，並選取連結至您的AEM as a Cloud Service程式的IMS組織。 許可權會在Cloud Manager層級強制執行。 您的AI平台只能執行您的帳戶獲授權的操作。
 >
->在首次連線時，您的AI使用者端可能會要求您確認您的組織或AEM程式。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
+>首次連線時，您的AI平台可能會要求您確認您的組織或AEM計畫。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
 >有些工具在執行前會提示您核准。 檢閱建議的動作，並核准或拒絕。 未經您的確認，不會採取任何動作。
 
@@ -126,7 +124,7 @@ What is the status of the production environment?
 
 +++檢視範例回應
 
-![AI使用者端顯示來自Cloud Manager的生產環境狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![AI平台顯示來自Cloud Manager的生產環境狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -143,7 +141,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++檢視範例回應
 
-![AI使用者端顯示生產管道的最後五個管道執行](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+![AI平台顯示生產管道的最後五個管道執行](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -152,7 +150,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 ## 步驟3：觸發管道
 
-啟動直接從您的AI使用者端執行的管道。 伺服器會確認目標環境，並在啟動前要求核准。
+啟動直接從您的AI平台執行的管道。 伺服器會確認目標環境，並在啟動前要求核准。
 
 ```
 Run the Fullstack pipeline against dev environment of WKND sandbox program.
@@ -160,7 +158,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++檢視範例回應
 
-![顯示管道觸發確認的AI使用者端和反映執行中管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![AI平台顯示管道觸發確認，以及Cloud Manager UI反映執行中的管道](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -169,11 +167,11 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 >[!CAUTION]
 >
->AI使用者端會在觸發執行之前要求您確認管道名稱。 輸入確切的管線名稱以繼續。 在確認之前，請仔細檢視目標環境，特別是對於部署到生產環境的管道。
+>AI平台會要求您在觸發執行之前確認管道名稱。 輸入確切的管線名稱以繼續。 在確認之前，請仔細檢視目標環境，特別是對於部署到生產環境的管道。
 
 ## 步驟4：檢查管道狀態
 
-觸發執行後，請要求您的AI使用者端進行狀態更新，而不切換至Cloud Manager介面。
+觸發執行後，請要求您的AI平台進行狀態更新，而不切換至Cloud Manager介面。
 
 ```
 What is the status of the triggered pipeline?
@@ -181,7 +179,7 @@ What is the status of the triggered pipeline?
 
 +++檢視範例回應
 
-![AI使用者端顯示觸發的管道執行狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![AI平台顯示觸發的管道執行狀態](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
 *選取以縮放。*
 

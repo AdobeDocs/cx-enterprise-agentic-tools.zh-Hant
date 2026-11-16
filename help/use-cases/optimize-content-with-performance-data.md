@@ -1,17 +1,17 @@
 ---
 title: 透過資料導向更新縮小內容效能差距
 description: 在一個AI工作階段中搭配使用CJA和AEM，在不切換工具的情況下尋找具有轉換差距的行銷活動、診斷原因並更新內容。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 6%
+source-wordcount: '1233'
+ht-degree: 5%
 ---
 
 # 透過資料導向更新縮小內容效能差距
 <!-- last-modified: 2026-06-10 -->
 
-![AI使用者端會並排比較原始和更新的頁面內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+![AI平台並排比較原始和更新的頁面內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md)和[AEM MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| CX Enterprise應用程式 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/overview/introduction) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)、[適用於AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)，或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md)和[AEM MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 客群 | 行銷活動經理、內容策略師、行銷作業 |
-| 先決條件 | MCP相容的AI使用者端、CJA存取、AEM as a Cloud Service存取 |
+| 先決條件 | CJA存取、AEM as a Cloud Service存取，加上Co-worker、具有Co-worker for AI平台的AI平台，或MCP相容的AI平台 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -31,11 +31,15 @@ ht-degree: 6%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker涵蓋整個逐步解說，無需伺服器設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+Co-worker涵蓋整個逐步解說，不需要伺服器設定。 [嘗試同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
 
-如果您想要直接連線您自己的AI使用者端，請使用下列標籤來連線兩個MCP伺服器。
+如果您無法或不想要直接使用同事，請改從您自己的AI平台使用。 請參閱「**AI平台的同事**」標籤。 如果這也不適合您，請使用其餘的索引標籤，將您的AI平台直接連線到Customer Journey Analytics和AEM MCP伺服器。
+
+>[!TAB AI平台的同事]
+
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -68,7 +72,7 @@ CX Enterprise Coworker涵蓋整個逐步解說，無需伺服器設定。 [試�
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI使用者端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用下列端點連線到兩個MCP伺服器：
 
@@ -77,7 +81,7 @@ CX Enterprise Coworker涵蓋整個逐步解說，無需伺服器設定。 [試�
 | Customer Journey Analytics MCP伺服器 | `https://cja-mcp.adobe.io/mcp` |
 | AEM MCP伺服器 | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
+所有支援AI平台的完整設定指示： [連線至您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -85,7 +89,7 @@ CX Enterprise Coworker涵蓋整個逐步解說，無需伺服器設定。 [試�
 >
 >出現提示時，請使用您的Adobe ID登入，然後選取連結至您的CJA和AEM環境的IMS組織。 選擇錯誤的組織是驗證錯誤最常見的來源。
 >
->在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
+>在首次連線時，您的AI平台可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
 >有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
@@ -100,7 +104,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++檢視範例回應
 
-從CJA高點進但低轉換的![AI使用者端呈現行銷活動](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+![AI平台呈現來自CJA具有高點進率但低轉換的行銷活動](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -118,7 +122,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++檢視範例回應
 
-![AI使用者端正在依裝置、區段和內容因素診斷轉換流失](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+![AI平台依裝置、區段和內容因素診斷轉換流失](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -136,7 +140,7 @@ Show me the Bali Surf Camp page.
 
 +++檢視範例回應
 
-![AI使用者端，顯示來自AEM之登陸頁面的目前內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+![AI平台顯示來自AEM的登陸頁面目前內容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -146,7 +150,7 @@ Show me the Bali Surf Camp page.
 
 ## 步驟4：取得鎖定目標的建議
 
-要求您的AI使用者端將顯示的資料與頁面上的內容連線起來。 跨兩個來源的AI原因可識別哪些內容區段可能會導致流失以及要變更的內容。
+要求您的AI平台將顯示的資料與頁面上的內容連線起來。 跨兩個來源的AI原因可識別哪些內容區段可能會導致流失以及要變更的內容。
 
 ```
 Which content sections are underperforming, and what changes would you recommend?
@@ -154,7 +158,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++檢視範例回應
 
-![AI使用者端識別表現不佳的內容區段並建議特定變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+![AI平台會識別表現不佳的內容區段，並推薦特定變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -164,7 +168,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 ## 步驟5：套用並檢閱變更
 
-要求您的AI使用者端根據建議建立頁面的最佳化版本，並摘要變更內容及原因。
+要求您的AI平台根據建議建立頁面的最佳化版本，並摘要變更內容及原因。
 
 ```
 Create an optimized version of the Bali Surf Camp page and summarize the proposed changes.
@@ -172,7 +176,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++檢視範例回應
 
-![AI使用者端建立頁面的最佳化版本並彙總變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+![AI平台建立最佳化的頁面版本，並彙總變更](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
 
 *選取以縮放。*
 
