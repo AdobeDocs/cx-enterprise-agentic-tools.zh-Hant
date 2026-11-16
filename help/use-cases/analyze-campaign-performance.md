@@ -1,10 +1,10 @@
 ---
 title: 無需建立報表即可呈現行銷活動深入分析
 description: 使用Customer Journey Analytics MCP伺服器，以淺顯的語言詢問效能問題，並取得解答，而不需導覽Report Builder。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1169'
 ht-degree: 3%
 ---
 
@@ -12,18 +12,18 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-02 -->
 
-![AI使用者端顯示改善行銷活動效能的建議後續步驟](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+![AI平台顯示改善行銷活動效能的建議後續步驟](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
 
 *選取以縮放。*
 
-促銷活動分析過去需要在不同的工具中建立報表，現在則變成對話。 此逐步解說會示範如何將AI使用者端連線至Customer Journey Analytics (CJA)，並以淺顯的語言詢問效能問題。 如此可加快前往insight的時間，且無需手動建立報表。
+促銷活動分析過去需要在不同的工具中建立報表，現在則變成對話。 本逐步解說說明如何使用Co-worker或您自己的AI平台搭配Customer Journey Analytics (CJA)，並以簡單的語言詢問效能問題。 如此可加快前往insight的時間，且無需手動建立報表。
 
 | 案例詳細資料 | |
 | --- | --- |
-| CX企業應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md) |
+| CX Enterprise應用程式 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)、[適用於AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)或[Customer Journey Analytics MCP伺服器](../tools/mcp-servers.md) |
 | 客群 | 分析人員、行銷活動經理 |
-| 先決條件 | MCP相容的AI使用者端、CJA存取 |
+| 先決條件 | CJA存取，加上Co-worker、具有Co-worker for AI平台的AI平台，或是MCP相容的AI平台 |
 
 每個步驟會顯示一個代表性提示和範例AI回應。 您可以完成更多&#x200B;**個**&#x200B;區段，在同一工作階段中進行更多探索。
 
@@ -31,11 +31,15 @@ ht-degree: 3%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-取得這些答案的最快方式是CX Enterprise Coworker，它不需要伺服器設定或AI使用者端設定。 [試用CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+取得這些答案的最快方式是Co-worker，它不需要伺服器設定或AI平台設定。 [嘗試同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
 
-如果您想將自己的AI使用者端直接連線到Customer Journey Analytics，請參閱以下標籤。
+如果您無法或不想要直接使用同事，請改從您自己的AI平台使用。 請參閱「**AI平台的同事**」標籤。 如果這也不適合您，請使用其餘的索引標籤，將您的AI平台直接連線到Customer Journey Analytics MCP伺服器。
+
+>[!TAB AI平台的同事]
+
+您也可以從自己的AI平台與AI平台的同事完成此逐步解說。 [設定AI平台的同事](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe檔案](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ ht-degree: 3%
 
 完整設定： [ChatGPT MCP檔案](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI使用者端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他與MCP相容的環境嗎？ 使用此端點連線至Customer Journey Analytics MCP伺服器：
 
@@ -66,7 +70,7 @@ ht-degree: 3%
 https://cja-mcp.adobe.io/mcp
 ```
 
-所有支援使用者端的完整設定指示： [連線到您的AI使用者端](../tools/mcp-servers.md)
+所有支援AI平台的完整設定指示： [連線至您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,13 +78,13 @@ https://cja-mcp.adobe.io/mcp
 >
 >出現提示時，請使用您的Adobe ID登入，並選取連結至您的CJA資料檢視的IMS組織。 選擇錯誤的組織是驗證錯誤最常見的來源。
 >
->在首次連線時，您的AI使用者端可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
+>在首次連線時，您的AI平台可能會要求您選取IMS組織或指定沙箱。 設定該內容後，MCP伺服器會將其用於工作階段的其餘部分。
 >
 >有些工具在執行前會提示您核准。 檢閱請求並核准或拒絕。 未經您的確認，不會採取任何動作。
 
 ## 步驟1：探索可用的資料檢視
 
-首先，請您的AI使用者端列出您CJA帳戶中可用的資料檢視。 這可以告訴您在執行任何報表之前可以查詢哪些資料集。
+首先，請您的AI平台列出您的CJA帳戶中可用的資料檢視。 這可以告訴您在執行任何報表之前可以查詢哪些資料集。
 
 ```
 What data views are available in my CJA account?
@@ -88,7 +92,7 @@ What data views are available in my CJA account?
 
 +++檢視範例回應
 
-![AI使用者端清單可用的CJA資料檢視](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+![AI平台列出可用的CJA資料檢視](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -105,7 +109,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++檢視範例回應
 
-![AI使用者端從Omni-Channel - Multi-Industry資料檢視，依收入和轉換率顯示熱門行銷活動](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+![AI平台顯示Omni-Channel - Multi-Industry資料檢視](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}依收入和轉換率區分的排名最前的行銷活動
 
 *選取以縮放。*
 
@@ -118,7 +122,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 ## 步驟3：找出驅動效能的因素
 
-請要求您的AI使用者端說明導致不同行銷活動群組間效能差異的原因。 這會從標題數字移至其下的變數。
+請要求您的AI平台說明導致不同行銷活動群組間效能差異的原因。 這會從標題數字移至其下的變數。
 
 ```
 What factors are driving the results for these campaign groups?
@@ -126,7 +130,7 @@ What factors are driving the results for these campaign groups?
 
 +++檢視範例回應
 
-![AI使用者端說明驅動行銷活動群組績效的因素](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+![AI平台說明驅動行銷活動群組績效的因素](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -143,7 +147,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++檢視範例回應
 
-![AI使用者端依客戶區段劃分促銷電子郵件促銷活動績效](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+![AI平台依客戶區段劃分促銷電子郵件促銷活動績效](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -160,7 +164,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++檢視範例回應
 
-![AI使用者端建議具有預估商業值的優先動作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+![AI平台會推薦具有預估商業價值的優先動作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
 
 *選取以縮放。*
 
@@ -173,7 +177,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 ## 您完成的內容
 
-您已將AI使用者端連線至Customer Journey Analytics，並在五個提示中從資料檢視探索移至優先的商業建議。 您透過收入和轉換率找出排名最高的行銷活動、瞭解跨行銷活動群組推動績效的因素、鑽研至特定行銷活動型別的區段層級詳細資訊，並收到具有估計提升度的排名建議。 此方法以直接對話取代報告建置，縮短業務問題與資料支援行動計畫之間的時間。
+您已搭配Customer Journey Analytics使用同事或AI平台，並在五個提示中從資料檢視探索移至優先的商業建議。 您透過收入和轉換率找出排名最高的行銷活動、瞭解跨行銷活動群組推動績效的因素、鑽研至特定行銷活動型別的區段層級詳細資訊，並收到具有估計提升度的排名建議。 此方法以直接對話取代報告建置，縮短業務問題與資料支援行動計畫之間的時間。
 
 ## 您可以完成更多工作
 
