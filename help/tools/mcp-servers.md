@@ -88,7 +88,7 @@ Adobe MCP伺服器遵循開啟的[模型內容通訊協定](https://modelcontext
 
 Co-worker for AI平台是一種MCP伺服器，可將您的AI平台連線到Co-worker。 Co-worker中的所有可用功能都可透過它取得。 您使用Claude、ChatGPT、Microsoft 365 Copilot或Gemini Enterprise等AI平台作為聊天介面，而Co-worker在背景工作，與直接使用Co-worker時相同。
 
->[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508464/?captions=chi_hant&learn=on&enablevpops)
 
 您使用Adobe憑證登入，而Co-worker會使用與您的Adobe身分識別相關聯的存取權。 同事安全且受設計管理。 您可以讀取或變更的內容取決於您的使用者設定方式、在Co-worker中授予您的存取權，以及Co-worker代表您使用的應用程式中授予的存取權。 請參閱[同事的存取控制](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/administration/access-control)。
 
